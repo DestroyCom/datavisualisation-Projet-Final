@@ -1,0 +1,17 @@
+1622564927648	geckodriver	INFO	Listening on 127.0.0.1:63563
+1622564930670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileLvyofN"
+1622564931106	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622564933015	Marionette	INFO	Listening on port 60243
+1622564933316	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 66: uncaught exception: TagError: adsbygoogle.push() error: Only one AdSense head tag supported per page. The second tag is ignored.
+1622564947644	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://video.unrulymedia.com/native/native_v1.0.1708-0-g52a14ef.js, line 1: TypeError: e is null
+1622565101174	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://www.officialcharts.com/artist/10363/beatles/, line 14: ReferenceError: r3px is not defined
+1622565391424	Marionette	INFO	Stopped listening on port 60243
+JavaScript error: https://video.unrulymedia.com/native/native_v1.0.1708-0-g52a14ef.js, line 1: TypeError: e is null
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\azeve\AppData\Local\Temp\rust_mozprofileLvyofN\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
