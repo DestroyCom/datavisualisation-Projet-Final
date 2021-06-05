@@ -17,7 +17,7 @@ time.sleep(10)
 driver.find_element_by_class_name('css-47sehv').click()
 
 who = driver.find_element_by_css_selector('#main > article > div > div.grid__cell.unit-2-3--desktop > header > h1').text
-who = who + '.csv'
+who = './bots/officialCharts-Scraper/data/' + who + '-OC.csv'
 
 try:
     singles = driver.find_elements_by_class_name('chart-runs-icon')
