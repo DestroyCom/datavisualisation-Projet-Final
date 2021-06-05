@@ -66,3 +66,1190 @@ JavaScript error: https://video.unrulymedia.com/native/native_v1.0.1708-0-g52a14
 ###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
 
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\azeve\AppData\Local\Temp\rust_mozprofileLrgThM\protections.sqlite
+1622806978450	geckodriver	INFO	Listening on 127.0.0.1:50089
+1622806981509	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilePnXSJR"
+1622806982866	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilePnXSJR\\search.json.mozlz4", (void 0)))
+1622806986222	Marionette	INFO	Listening on port 53794
+1622806986330	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807291509	Marionette	INFO	Stopped listening on port 53794
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileaFke6P"
+1622807058104	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileaFke6P\\search.json.mozlz4", (void 0)))
+1622807060286	Marionette	INFO	Listening on port 58621
+1622807060613	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807061633	Marionette	INFO	Stopped listening on port 58621
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\azeve\AppData\Local\Temp\rust_mozprofileaFke6P\protections.sqlite
+1622807083390	geckodriver	INFO	Listening on 127.0.0.1:63113
+1622807086427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileOn5vkA"
+1622807086832	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileOn5vkA\\search.json.mozlz4", (void 0)))
+1622807089134	Marionette	INFO	Listening on port 58077
+1622807089616	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807293259	Marionette	INFO	Stopped listening on port 58077
+2807219051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilexdMNsh"
+1622807219541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilexdMNsh\\search.json.mozlz4", (void 0)))
+1622807222165	Marionette	INFO	Listening on port 51219
+1622807222228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807297936	Marionette	INFO	Stopped listening on port 51219
+1622807305070	geckodriver	INFO	Listening on 127.0.0.1:63579
+1622807308160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilefbtrUF"
+1622807308651	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilefbtrUF\\search.json.mozlz4", (void 0)))
+1622807311376	Marionette	INFO	Listening on port 58106
+1622807311854	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807838717	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622807844939	Marionette	INFO	Stopped listening on port 58106
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+807419630	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileCT4gK0\\search.json.mozlz4", (void 0)))
+1622807422408	Marionette	INFO	Listening on port 57228
+1622807422866	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807845930	Marionette	INFO	Stopped listening on port 57228
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileXJ3vwi"
+1622807480704	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileXJ3vwi\\search.json.mozlz4", (void 0)))
+1622807483845	Marionette	INFO	Listening on port 53786
+1622807484290	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807847025	Marionette	INFO	Stopped listening on port 53786
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileNP9FAU"
+1622807615085	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileNP9FAU\\search.json.mozlz4", (void 0)))
+1622807617681	Marionette	INFO	Listening on port 55471
+1622807617820	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807847850	Marionette	INFO	Stopped listening on port 55471
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilegScKKO"
+1622807709624	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilegScKKO\\search.json.mozlz4", (void 0)))
+1622807712252	Marionette	INFO	Listening on port 51944
+1622807712362	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807849052	Marionette	INFO	Stopped listening on port 51944
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileewlsOP"
+1622807800717	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileewlsOP\\search.json.mozlz4", (void 0)))
+1622807803049	Marionette	INFO	Listening on port 61159
+1622807803481	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622807849891	Marionette	INFO	Stopped listening on port 61159
+1622807868177	geckodriver	INFO	Listening on 127.0.0.1:65122
+1622807871221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile7aNjGm"
+1622807871675	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile7aNjGm\\search.json.mozlz4", (void 0)))
+1622807874535	Marionette	INFO	Listening on port 56357
+1622807874928	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622807887520	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622808401725	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622812709984	Marionette	INFO	Stopped listening on port 56357
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilekjunAf"
+1622809573982	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilekjunAf\\search.json.mozlz4", (void 0)))
+1622809576790	Marionette	INFO	Listening on port 49164
+1622809577228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622809584850	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 975: TypeError: google.visualization.DataTable is not a constructor
+1622810104060	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622812710842	Marionette	INFO	Stopped listening on port 49164
+809634164	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileFl56Xx\\search.json.mozlz4", (void 0)))
+1622809637088	Marionette	INFO	Listening on port 55075
+1622809637395	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622810164197	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622812711829	Marionette	INFO	Stopped listening on port 55075
+eground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileGIGqvB"
+1622809672016	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileGIGqvB\\search.json.mozlz4", (void 0)))
+1622809674778	Marionette	INFO	Listening on port 65007
+1622809675231	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622810202083	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622812712891	Marionette	INFO	Stopped listening on port 65007
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileT07FKE"
+1622812219246	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileT07FKE\\search.json.mozlz4", (void 0)))
+1622812221822	Marionette	INFO	Listening on port 64016
+1622812221977	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622812229954	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622812713717	Marionette	INFO	Stopped listening on port 64016
+2812483197	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileABWYpu"
+1622812483807	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileABWYpu\\search.json.mozlz4", (void 0)))
+1622812487255	Marionette	INFO	Listening on port 52319
+1622812487418	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 975: TypeError: google.visualization is undefined
+1622812714885	Marionette	INFO	Stopped listening on port 52319
+2812685825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilepzlQNo"
+1622812686276	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilepzlQNo\\search.json.mozlz4", (void 0)))
+1622812688827	Marionette	INFO	Listening on port 64531
+1622812689028	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622813216336	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622814727154	Marionette	INFO	Stopped listening on port 64531
+812848116	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilemNgJFj\\search.json.mozlz4", (void 0)))
+1622812850893	Marionette	INFO	Listening on port 60841
+1622812851206	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 975: TypeError: google.visualization.DataTable is not a constructor
+1622813378173	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+[Parent 17884, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622814728053	Marionette	INFO	Stopped listening on port 60841
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ew NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileSiqpLi\\search.json.mozlz4", (void 0)))
+1622812974614	Marionette	INFO	Listening on port 49218
+1622812974765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622813502103	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622814728752	Marionette	INFO	Stopped listening on port 49218
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofilen5zHGc\\search.json.mozlz4", (void 0)))
+1622813078108	Marionette	INFO	Listening on port 56146
+1622813078423	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622813604746	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+[Child 22172, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1622814729710	Marionette	INFO	Stopped listening on port 56146
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile4jB8hX\\search.json.mozlz4", (void 0)))
+1622813316426	Marionette	INFO	Listening on port 52474
+1622813316573	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622813324494	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622813843902	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622814730483	Marionette	INFO	Stopped listening on port 52474
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+813612839	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileaS5dof\\search.json.mozlz4", (void 0)))
+1622813615546	Marionette	INFO	Listening on port 54308
+1622813615584	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622814142889	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622814732151	Marionette	INFO	Stopped listening on port 54308
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+813680404	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilepv0qiM\\search.json.mozlz4", (void 0)))
+1622813682898	Marionette	INFO	Listening on port 52857
+1622813683157	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622814210471	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622814735256	Marionette	INFO	Stopped listening on port 52857
+eground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilewyavzA"
+1622814054457	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilewyavzA\\search.json.mozlz4", (void 0)))
+1622814056990	Marionette	INFO	Listening on port 57313
+1622814057118	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622814584491	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622814736373	Marionette	INFO	Stopped listening on port 57313
+eground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileBUOUMH"
+1622814101996	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileBUOUMH\\search.json.mozlz4", (void 0)))
+1622814104810	Marionette	INFO	Listening on port 55967
+1622814105278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622814632042	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622814738704	Marionette	INFO	Stopped listening on port 55967
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+814140974	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileTARHL2\\search.json.mozlz4", (void 0)))
+1622814143826	Marionette	INFO	Listening on port 53206
+1622814144134	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622814671045	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622814738722	Marionette	INFO	Stopped listening on port 53206
+814204475	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileIUVwkU\\search.json.mozlz4", (void 0)))
+1622814209463	Marionette	INFO	Listening on port 52938
+1622814209819	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622814218185	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622814734547	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1622814739826	Marionette	INFO	Stopped listening on port 52938
+eground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileR9rLaS"
+1622814335926	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileR9rLaS\\search.json.mozlz4", (void 0)))
+1622814338326	Marionette	INFO	Listening on port 65338
+1622814338651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622814740406	Marionette	INFO	Stopped listening on port 65338
+2814439390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile5UAFjy"
+1622814439833	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile5UAFjy\\search.json.mozlz4", (void 0)))
+1622814442716	Marionette	INFO	Listening on port 58370
+1622814443107	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 29164, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622814741147	Marionette	INFO	Stopped listening on port 58370
+2814628876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileyGjG0n"
+1622814629450	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileyGjG0n\\search.json.mozlz4", (void 0)))
+1622814631749	Marionette	INFO	Listening on port 52421
+1622814632068	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1622814742361	Marionette	INFO	Stopped listening on port 52421
+rs\\azeve\\AppData\\Local\\Temp\\rust_mozprofilewy7mff"
+1622814667393	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilewy7mff\\search.json.mozlz4", (void 0)))
+1622814670325	Marionette	INFO	Listening on port 56892
+1622814670478	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622814742936	Marionette	INFO	Stopped listening on port 56892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622814825450	geckodriver	INFO	Listening on 127.0.0.1:54169
+1622814828508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofiledgSGTH"
+1622814829071	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofiledgSGTH\\search.json.mozlz4", (void 0)))
+1622814831781	Marionette	INFO	Listening on port 64444
+1622814832187	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622814842107	Marionette	INFO	Stopped listening on port 64444
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1716: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622815503769	geckodriver	INFO	Listening on 127.0.0.1:52815
+1622815506855	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilelbQRnM"
+1622815507429	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilelbQRnM\\search.json.mozlz4", (void 0)))
+1622815510301	Marionette	INFO	Listening on port 50065
+1622815510553	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622815519388	Marionette	INFO	Stopped listening on port 50065
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1622815563996	geckodriver	INFO	Listening on 127.0.0.1:64014
+1622815567040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilenScoKg"
+1622815567527	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilenScoKg\\search.json.mozlz4", (void 0)))
+1622815570032	Marionette	INFO	Listening on port 59548
+1622815570225	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622815578134	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622815579164	Marionette	INFO	Stopped listening on port 59548
+1622815622973	geckodriver	INFO	Listening on 127.0.0.1:50740
+1622815626045	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileqzs4LP"
+1622815626541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileqzs4LP\\search.json.mozlz4", (void 0)))
+1622815629197	Marionette	INFO	Listening on port 56008
+1622815629219	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622815637688	Marionette	INFO	Stopped listening on port 56008
+1622815663865	geckodriver	INFO	Listening on 127.0.0.1:61967
+1622815666909	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileaI7yOL"
+1622815667473	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileaI7yOL\\search.json.mozlz4", (void 0)))
+1622815670224	Marionette	INFO	Listening on port 65231
+1622815670574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622815680418	Marionette	INFO	Stopped listening on port 65231
+JavaScript error: https://fw.adsafeprotected.com/rjss/bgd/266706/51196673/xbbe/creative/adj?p=APEucNXZrdMkBpWUmNgSD78qdBzJIwRN-pBE3mGNpXEBJcbpXUe_B8Y&d=CnkAoCZ_4A5cH65W04zYC3Ot4lR6x4lD6YVkP8XxZ1EZ7gtvxT93WQjFjBdlwZYwrqh_PvPeN-AKdyHVcNUB_GSGfOooXPM2G6lNtS7oD8Fs-L2_zVLtIs5s0bxEB2SaHWNLhlvLCRqqraykGJTlqlFs_d-qXGrbF2Z8EqkkAKAmf-AOaDJIg7Ic8zxm3Mjziqp4Ax9MWXXluMyyoTYoCgIJJb573kr18NohVEji7JFrsiAliDkcKyRHuTwsOBcDMDGF8o4bsUxNn4mGp8ZVg0__eRuPJ61fCgKYi7DzhiMiErH_PEztko_fZizAGTbYjRJQ_vBqnWD2Aw5--JAzefNHPp5Qoe0mmF-nBnjb2w6jSL3dMyykE3tuKd1ZrewdK61PkKu86KL5lKcvHfSslNV-VU1ZwKREfS0_9m9ncPNJjD_ac9Yd8ihZk-o69lecLnR-gANsbur5HlD7ACOfEfb5fbJ4RGxrBL8ln97XbDn3NBkfpiXFnhEvBXKI1vs18RW6iFsYqEBFFiJ81YT7dHquhpr1lKL83J4vudFGLVg4qkHxKoZJ5DxMUzZcK4ypzmfBVSaORVo7B0hE-_DeHsQNxWtZHzNlzam2u8MMue7xuHioUTOQvqXIaqKFT13PyBIOSX7nlajC7oUZQOSd2rwtAEKeEyqnea4ikAYb1qCGRd_VgkCdbb9u6bbENGRHzm-bCC6WQMI8ei84OBkgKOI9osTdcZFodg4JXYXwcCIwlljmX4vgpezxHwCMZOi-cNdUhEkqpwIN5f2mQ_dcSwvezE_0GfRKerNGg5O14hqaUknXXUfDZfgfmiPUFs4DLpflfxdwLSrGw9i_aJr_Xiug8U2jD_jMmIn8tIOqNWX7APHylQz5NRO8tqIgyvUdrxd3_piiLP44V7QwNBlLXUYOqGUXZ5whWAw-ozFNv04Y-JJ25PYMK-RETsaZqPVvu2cYaTthtgAHKdC7QnJOtkETWZeTFxfyCtEbufTSzbOqOlKxKfxijwxh5ZYgy3Hpt-eylHr3lNR1CcOhgifvgk8h90MEpGDLxzxinOZrHuklbLyM-NIfBsSafWRO8ZXlDZvKfr_V4JPyF2OLZOsoSxV0jQZZfeuPOxwuHzKw1w6VVxcksR1tivioFbcZ8fz6RC-7yPlJ7tpnGV9GwyFd_AU6Ktmt7-qRVBcyolbZjBLYT8wkXw0YaL61_0L1J_xYH3nUl3g3Il9kRqO9NDMaiZ2WSuyDzdCVRPw7W1ZdCcueDZkXB0QjZSvwm9VoXZ02-kFbRNE2JiDL9U6oxBnXH0sUp1CweR4U_uRlpN4DILC4zbgPLJNsGNe7fJ3Cq5zb0txLkBBDk25Vl-IwXx5K3Dm2__0GP91AR30Ili2r6u8PLuwasf9LRVvyuYfIzLNlvCbAXBKNjnlpraCyxw64xl4wv5rr9eVNzfTFbl_AEs6blD4ePESAq7r0zpDPwi0BcrRmhwa_iJ6NH4Kspph6HADX5mBHewMQyzJ9cQClUJY3mIOcj75FgWmGR-wxLY4XzjOI-rbFOVLa3BpapcQLFHwZ-jgI8VpRtPgehxPBTVKySQ8hjT_loRfAiTpNcbuTgHAmR46xtVVgpPOe_rVwE-IB73XJ11muDbRG277wNI_HDkkwYdH92YL_9fBvv_2W4hygc1aQQjY7iVb5ZSndj4AI37oUK6-4FndKmIAF0OjoBtTn9sho_xLOGjo9aDRNLDHLp0sCU0sHwp0S_qY3CzogcLsZ1Ougrj-hvj1FiAE6h-K3FpbavWapv7cbxYRLfShW0ckgbVxmlE4UDZ4tTPiM8osSD8mu9kyYkabxDEcYIL0IbTnoY_pCW8sKUqEnHFq3g3m5i0EJAy9KgT2v2AScj1_e4RyB7IjibfMja7WYXzTLVvmgK_m-WAu-TWzMXnE9DR2ZhZ3iUNAcwhAQKBkoWNnpmFm0zicnNW4wGBcOjZRoVo3BbMSB5CwyGFXuItv_iebdbDpeRsmwfJ8ebYIVYTMqN3VVyt4f_xerglTTYUwoNPSOQL-x-h7Sh4cgcInytMuJDzj73YqvTdaqn6eRshO1MV9w16bF0UKnya8cXeKf5p8fIqhYCqhtfWuT0676iZYaGjafdKbHHE0Sif8iXcsyIRXrKLZyIm-_yRmEfhb71NZrJuvMBAwdU-SZ38xPRJX0WtJVrQAFrqca94seyDh6vHPPJ-Z_01jYwQpE-5GRzxVRMZ81n-xYi1b58qkULXvNpEdja7faV_J35NAci3Ptraxwo2am7XYSDT8pGb6JvY6Ure39DmdswB5Zp6BxAIDUGWRCV3B5-ApJyndOIxchbdEzmqjLlKcByzD9XaPelxaHjlYsrVRK8B7QNiah69YxLTOajFHhn10DiAtfLjw9_8rot5zIiygtSB5PM64FnNeI7lFxz7deneEWAJiXFYdG1tNpOewhLzglRxE44HYyu23ou5sfe2Ye7nO4UjZhTQgZElOcvbc1yqpTt6JDlWJK-c9bwRsHw9bAYLKKVieSTXuBzRDimsqP4L9g1A1_iQefN5XABHvYi3M1WulOtkMbIexTJC3QKbw-ldYG4_IDdfSvrUAOJTWGN9bY87ZOalrvF3b5c6jFzmycyObAoriNZi59FjuTh2Q6oAz48cbPY3YQqSsenUn-K4YDy1f41i7sucg2QdwhIsH5esZit5fJQK06JvNNdrKf7J2AN1-ys2HxsjP845Ttf2rXupkvEIsMuuAU3FTKUZTdeZi_3TyPa8I0vs7GXQ92VRztS9a9q1B7XJJn_kxQ6cdDem0UTfijMao7OB0_KzjsNTAan9ISUY6T-al-bBpPFAqjqnl_oUaC0cqRUKA2kVtQmLlCGJHgSieU2eigSYaXxGWjNozNNty-GKkyJc1Hk5pYCJXkVMw4kB89ny-0cpOoIplUG1RUmjvZY3q1U8V7np5XSDWoZzGaePFyNm0bjoatbq_VQJTbJgUE1CxxJFZsFmHZQZRnsMTXs0D0HetiQg6uyjQ0oXJMHcn0Hj7SlSfzrFuWgLmZBjUvp3VcSbbp7Iu4RHrxGZ2jSG4fBc74-2-dzyOx2ds-E5Xpjs8up_xt38NDucEUoXFR2lelCwdJtGIg2NlzxOLMrjZb95tmb42JUwQu5E7pBPg9cKvoG08gLME5RV6Bv6h0X7KCOs4Ic1AUNUPDDu7W_wX-jLbk6gJJeoxo3G7fT3Sn9ZhQ6-eUJBd_7SfN8Yrl7juWcfc2kx4Up2QtgVKuG-Ua7nRM7E2N2TvtUbFqkrVdE3KhtJEnTHukN5CqtaK6D8BnylmP5u9F961-_nv7Z2S5kW6NRAFbNigtasAaSBrftg-dHATe_ZWlx_IzNHd5Lh7OAKhfoJr2viq1jvPP5omMKvm7-g9ZUBFcp6aa-2SFiON7BXO6macqMFhDk777OGsue6Z2Ar5ta6XJdY5WqB2g0y-qTLR0mRQmQmN2hTm-rxZrn2-pOCbOz_i-l3cHhhZJFAxnp_0LkTEnz3Nf7cg2r8bCAtC4hdVQS_PVfF8skzcdC2XKCLiX9VNzb6Q5DTl9hKSlfEqA_t52S0v1VnhHTtafocTsT6lFyuThwUXt70XrUYYyrACPqBIZEScHmVt_OurB0EeBC3sv_7Q9Fr4PpVOpxlH95YPOLKZ009RjVYdxUWTv_OiK_YsMIgnAMOGOR65OuJU1J3c6Oz3MqQuSRf-q-4U1kTswz1G8I4ECdBf4MoF6RYSvMwhU2Rtj1rAxw6PR_UrmD1txIqmqGxvfh8GcX6mAviOoFsRFwKf27S4Dtp0RT-1VPvSjFtvHZ0zCA2G0mDsOZ1sL8nNwESeE2FIU8NSOQNTwt3kX6GNsU-qlPwjoCh62aufVkX7kWIygAd_ZZFwI9WkMcBExhuOS--n1CY73XJSsUHjyHLlid9b8GtnP2RnTvkLDZp7y4XYVS5yB6C005DEC67cL_eYao8jO6WZEP70mFdNHyr1ONRn-NH-Frw4aCwdYCAb1BtTxbbepuP2fXNkuPd_VESFDEWbUmK-V3-qj4D0L6zWOYuZUHm8U_rYazJKVBT41nzBLfi1uYCUitUcnmXuFz5UnHkiEvAPcJGzOUxkkPIVoOAz0vGdERM-JFvJXY7Hr43puzrKJda6Z8ATZCh2oe7Hl3WIiAv_tG21fpm88cQ-_87-i8JrCflqXrLWf-IP7zwBP5vhsyTz-JILTFUBVb-ly3KrgvjzkXZO3qpLeWRxT7O1184EK40lzClygP2hIyHaX1qqwQHSPh5Gd7nZ_iNYI330T_JxnJTFaVobTeRrXKSVT2yak9LuidN_hpuqHffPqIqW0Qc_jkuZDdRGIgDiQG-O7K8GEXMEx6PIrI6y0BUL3BTTbvpNnYQpVS9Xzv0eJHvMC6y_Dz9uiu0WUtMq-DTFdL_6qgsoOdEpyruo8a4xw9D_5zp0eqwwAHI0UI67sOIIP0GIOG1XdcGLJCmQpj_ciiS8Hbv1voBAJKj1bheTrlyVt4RVgOHFb_3_NVLWxGZhQxn-r1QlHQ2w_F3YsGKqpY8L7avAzMqkIJ8WO84SuRFgOX607OR2nNqyh89a8_CwQdP91aJ-ppHN6ZLBBOJFwlCa28x23FpuGKDJ1bOaT4DI-SahWFbluoTcH91SverV4don3tvWwWbCN4p8nvJx_4Fw32-jPvETZZtEc_HVVJfWrQdA77WAcOOMSv7-zQzjmlM_fVxaWzkjYD3PHLbLl8xjyc8QQJd13cwD-7izAKkEqOJV9hdC4kO20Esma2eOPRJE7UECdueuWhLlth0Q1xDKA3M82bg5UHY5QR4w900S3fFGwfg5mvwhWBkamuouAEoQxTVjP_cWozWPbJimxUp9iEEUi9KLjUgFuUDGTUSOwqHhhE4vGMhH4r_LQ7wGBkQIgB8GEeifq_je45f1mrsid38oxW6xbqVZT3-ByXRzp64rEPat5mznU7HL67NTmAhTFebC93IeuuKff9HTgvrea0Wqw-TXWyzVUMY7EnNllghu_uj9k5B0aUAVPQyuZcJTVxO9fqHuhJzvdPKq4mz2DZ2t2nAEnT6IhkMN8cTbB0hqz2aygsoUDXXh3VLOIGyjMsC1JkqUntxmsOi9umrBroDz5gsdE8B28YlzRUXUkZ5feWtCi0g-9U-it13BPf2AliObXggEHXjPIBxNklQxsaOoPcRHEogvLDDnepOD77Dphl62f4Qrqara8RXrx13B8Z1r8w6tCYpMfklG31ohXbIsEqwipAY5lPYko_ImDJnoH0t5XTfZ_kxbhPALCR-pyshIDmnxaB1QTM_-H3uCfhyjUi-iQZR4ozue2b9DTTo9xi4KzEEk5ZZQdlSvgc4Lx9cekDnd4gnIgiqBDhRY0CVf3I76eaZ9uwY-anCoG7BOm4C41Ziu3ukvTIbAo5HE7F9o86PnwXjZ1LWK7srPi15bcGKzFgmT1MrI03hNeWT7AZZh_4B4ByeCvzm-PyxTNMd0CdS1c_ZviHZoIuN_2zMTMiv58lOlp-vwdabbL4VhDWoxFblrXlGr-IMFg-3Gln5mAfOZJz9ZFUd1sNRvYeR3g89J5djy9rlQSelal58aHPXlr8x-OUCB42oMIEyWMtsja45aIaQnpo3JRKVWaTrl72kYAzym9a3uekkP7eqdm_UVd3CDpEhoP8DduX4181DAHBYNdoVaSN3CQNV8V96vlhDuASAn0KS_SSh9eJLK7zh0AUmhJxrcskH3NNpB41z1_Nr4tlXodfUn3GNFZGrdKuqWYSO7cX5j5JxBLxMsxdQQCEJ8utFHLGq-UH7nNrSY1JutCmS20eKk2bR39fuA7AEvsS21saPv4US80Gga4KfNsWR_NGvHrxRA02qjN_GR7TE3JDy_78Toh3iC3Pcy8c_XhMewZpwFC_OAo_gk2AIEPXWerQxf_TLP-Caj40GozY8-RMrljVD1g39H82JAfAlehgg2geQHZF6APxKUohnzBWzApaTCwnkplHfuMDkEl-nME573GqHRWXVfc9k5H1k7Oqef1GdIytIk-uwI_zeZRzZ9mpnjwbutwFdkej9C5e2TCjRaqE_xGsVaiZlrxxZUhLWSerY3osEIzMH0t0fg2za2sLDLjV-WhdZvyQKMsnkJyn7J3Bjdqe0XJzEdVWbxoGEMnJDFe-XpVD4xr07BJ0oaRNI7E8IYsJY_6bLfiLdYY7yJ6t0wpQcDgZenbCS0XR-PpL2m-J0f64Hwh79Nm9WYy8_iOeqI-dPAXykwkxeLHrzEp0oVTpaBs293wPdW7NMXlSHt-R1fNyGUg2qiytA0uCTs3_pn1QPGIKNtlfq8n_aZy_NixWGdMQ_-cDZBjcLSwaDaYaGMWEooMoBQaQQgAEj3kaPA9d0m7aFwxa2LuQvT741qpahSEQfTgtUndrOwiIlTGUbstn1UacAEHI6uBCKturA4dRxALzSujc5gcYAE, line 1003: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622815820788	geckodriver	INFO	Listening on 127.0.0.1:64990
+1622815823865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilegM0chw"
+1622815824435	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilegM0chw\\search.json.mozlz4", (void 0)))
+1622815827465	Marionette	INFO	Listening on port 50237
+1622815827554	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622815834356	Marionette	INFO	Stopped listening on port 50237
+1622815845080	geckodriver	INFO	Listening on 127.0.0.1:63594
+1622815848162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileGg9BXi"
+1622815848657	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileGg9BXi\\search.json.mozlz4", (void 0)))
+1622815850976	Marionette	INFO	Listening on port 49549
+1622815851359	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622815861328	Marionette	INFO	Stopped listening on port 49549
+[Child 15464, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1622815932933	geckodriver	INFO	Listening on 127.0.0.1:64184
+1622815936001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile4Wg2ra"
+1622815936484	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile4Wg2ra\\search.json.mozlz4", (void 0)))
+1622815939368	Marionette	INFO	Listening on port 54974
+1622815939690	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622815940950	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 975: TypeError: google.visualization.DataTable is not a constructor
+1622815948088	Marionette	INFO	Stopped listening on port 54974
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622816100187	geckodriver	INFO	Listening on 127.0.0.1:50328
+1622816103287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileDKQlHv"
+1622816103773	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileDKQlHv\\search.json.mozlz4", (void 0)))
+1622816106809	Marionette	INFO	Listening on port 49701
+1622816106991	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622816363801	Marionette	INFO	Stopped listening on port 49701
+2816189789	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile6gREqv"
+1622816190230	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile6gREqv\\search.json.mozlz4", (void 0)))
+1622816192630	Marionette	INFO	Listening on port 58195
+1622816192976	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622816364181	Marionette	INFO	Stopped listening on port 58195
+2816285220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilesbMa3o"
+1622816285663	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilesbMa3o\\search.json.mozlz4", (void 0)))
+1622816288291	Marionette	INFO	Listening on port 57730
+1622816288410	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622816365167	Marionette	INFO	Stopped listening on port 57730
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileqccDHP"
+1622816313624	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileqccDHP\\search.json.mozlz4", (void 0)))
+1622816316033	Marionette	INFO	Listening on port 51025
+1622816316354	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622816366636	Marionette	INFO	Stopped listening on port 51025
+2816358765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileE0zBeL"
+1622816359206	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileE0zBeL\\search.json.mozlz4", (void 0)))
+1622816361858	Marionette	INFO	Listening on port 61539
+1622816361949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622816372740	Marionette	INFO	Stopped listening on port 61539
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1622823722120	geckodriver	INFO	Listening on 127.0.0.1:62132
+1622823725209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileG6j0aM"
+1622823726378	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileG6j0aM\\search.json.mozlz4", (void 0)))
+1622823730127	Marionette	INFO	Listening on port 49459
+1622823730543	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622823739646	Marionette	INFO	Stopped listening on port 49459
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622823780430	geckodriver	INFO	Listening on 127.0.0.1:54234
+1622823783497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile2rdlQx"
+1622823783995	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile2rdlQx\\search.json.mozlz4", (void 0)))
+1622823787924	Marionette	INFO	Listening on port 59646
+1622823788302	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622823799565	Marionette	INFO	Stopped listening on port 59646
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1716: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1622823826560	geckodriver	INFO	Listening on 127.0.0.1:57554
+1622823829592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileu8A9Ey"
+1622823830081	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileu8A9Ey\\search.json.mozlz4", (void 0)))
+1622823833166	Marionette	INFO	Listening on port 58434
+1622823833272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 975: TypeError: google.visualization is undefined
+1622823844065	Marionette	INFO	Stopped listening on port 58434
+[Parent 18856, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622824208585	geckodriver	INFO	Listening on 127.0.0.1:51553
+1622824211645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileHp6h8w"
+1622824212134	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileHp6h8w\\search.json.mozlz4", (void 0)))
+1622824216555	Marionette	INFO	Listening on port 59699
+1622824216953	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622824229206	Marionette	INFO	Stopped listening on port 59699
+1622824251425	geckodriver	INFO	Listening on 127.0.0.1:51035
+1622824254506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileFcJVge"
+1622824255019	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileFcJVge\\search.json.mozlz4", (void 0)))
+1622824258271	Marionette	INFO	Listening on port 62063
+1622824258717	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622824299773	Marionette	INFO	Stopped listening on port 62063
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622824458728	geckodriver	INFO	Listening on 127.0.0.1:50615
+1622824461808	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile2j4XR4"
+1622824462313	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile2j4XR4\\search.json.mozlz4", (void 0)))
+1622824465171	Marionette	INFO	Listening on port 57399
+1622824465493	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622824511083	Marionette	INFO	Stopped listening on port 57399
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622824594058	geckodriver	INFO	Listening on 127.0.0.1:57827
+1622824597117	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileu5brvc"
+1622824597676	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileu5brvc\\search.json.mozlz4", (void 0)))
+1622824600814	Marionette	INFO	Listening on port 50757
+1622824601310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622824645709	Marionette	INFO	Stopped listening on port 50757
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1622824790640	geckodriver	INFO	Listening on 127.0.0.1:52120
+1622824793715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileiHnWI4"
+1622824794263	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileiHnWI4\\search.json.mozlz4", (void 0)))
+1622824797035	Marionette	INFO	Listening on port 53707
+1622824797399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622824805131	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622824844001	Marionette	INFO	Stopped listening on port 53707
+1622825022505	geckodriver	INFO	Listening on 127.0.0.1:60712
+1622825025554	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileyuiUg9"
+1622825026225	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileyuiUg9\\search.json.mozlz4", (void 0)))
+1622825029596	Marionette	INFO	Listening on port 65024
+1622825029756	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622825345989	Marionette	INFO	Stopped listening on port 65024
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile9MUTQ5"
+1622825042766	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile9MUTQ5\\search.json.mozlz4", (void 0)))
+1622825046612	Marionette	INFO	Listening on port 58146
+1622825346509	Marionette	INFO	Stopped listening on port 58146
+2825056109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilenU0o6D"
+1622825056524	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilenU0o6D\\search.json.mozlz4", (void 0)))
+1622825059346	Marionette	INFO	Listening on port 63212
+1622825059765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622825105350	Marionette	INFO	Stopped listening on port 63212
+1622825272328	geckodriver	INFO	Listening on 127.0.0.1:62983
+1622825275389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile6Dxc3S"
+1622825275805	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile6Dxc3S\\search.json.mozlz4", (void 0)))
+1622825278509	Marionette	INFO	Listening on port 62426
+1622825278584	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622825286444	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622825288515	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622825347444	Marionette	INFO	Stopped listening on port 62426
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+zprofiledYWVYc"
+1622825342818	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofiledYWVYc\\search.json.mozlz4", (void 0)))
+1622825346064	Marionette	INFO	Listening on port 64165
+1622825346563	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622825354765	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622828543147	Marionette	INFO	Stopped listening on port 64165
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+zprofileT1QB9M"
+1622825678160	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileT1QB9M\\search.json.mozlz4", (void 0)))
+1622825681201	Marionette	INFO	Listening on port 62665
+1622825681386	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622828544915	Marionette	INFO	Stopped listening on port 62665
+2828442748	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilej0Da2E"
+1622828443188	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilej0Da2E\\search.json.mozlz4", (void 0)))
+1622828445802	Marionette	INFO	Listening on port 54238
+1622828445951	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622828545789	Marionette	INFO	Stopped listening on port 54238
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile3tAqqt"
+1622828489961	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile3tAqqt\\search.json.mozlz4", (void 0)))
+1622828492682	Marionette	INFO	Listening on port 52922
+1622828492750	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622828500473	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622828547566	Marionette	INFO	Stopped listening on port 52922
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileaQGI4n"
+1622828540962	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileaQGI4n\\search.json.mozlz4", (void 0)))
+1622828544971	Marionette	INFO	Listening on port 58175
+1622828545315	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622834959564	Marionette	INFO	Stopped listening on port 58175
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622899574290	geckodriver	INFO	Listening on 127.0.0.1:53830
+1622899577335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilemMRBFv"
+1622899578803	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilemMRBFv\\search.json.mozlz4", (void 0)))
+1622899583209	Marionette	INFO	Listening on port 53841
+1622899583360	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622899609467	Marionette	INFO	Stopped listening on port 53841
+1622899773191	geckodriver	INFO	Listening on 127.0.0.1:60213
+1622899776258	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilePIJHsL"
+1622899776798	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofilePIJHsL\\search.json.mozlz4", (void 0)))
+1622899780016	Marionette	INFO	Listening on port 51438
+1622899780461	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\azeve\AppData\Local\Temp\rust_mozprofilePIJHsL\protections.sqlite
+1622899809558	Marionette	INFO	Stopped listening on port 51438
+rofileq8Xayi"
+1622899805243	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileq8Xayi\\search.json.mozlz4", (void 0)))
+1622899808147	Marionette	INFO	Listening on port 64068
+1622899808443	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622899816348	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1622900289675	Marionette	INFO	Stopped listening on port 64068
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+led
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile8xAU90\\search.json.mozlz4", (void 0)))
+1622899858809	Marionette	INFO	Listening on port 65525
+1622899859030	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622899869771	Marionette	INFO	Stopped listening on port 65525
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1622900285363	geckodriver	INFO	Listening on 127.0.0.1:64358
+1622900288428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileoYl1EM"
+1622900288886	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileoYl1EM\\search.json.mozlz4", (void 0)))
+1622900291912	Marionette	INFO	Listening on port 52937
+1622900292123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622900306747	Marionette	INFO	Stopped listening on port 52937
+1622900312182	geckodriver	INFO	Listening on 127.0.0.1:61266
+1622900315257	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileX3YALE"
+1622900315701	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileX3YALE\\search.json.mozlz4", (void 0)))
+1622900318904	Marionette	INFO	Listening on port 64848
+1622900318970	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.setlist.fm, line 1: GVLError: aborted
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1622900326059	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://code.jquery.com/jquery-migrate-1.1.1.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://w1.cdn.setlistfm.com/script/setlist-setlist-web-5.2.181-6-g70781ae-dirty.js, line 1004: TypeError: google.visualization.GeoChart is not a constructor
+1622900327198	Marionette	INFO	Stopped listening on port 64848
+[Parent 21192, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

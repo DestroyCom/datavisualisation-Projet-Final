@@ -33,7 +33,7 @@ try:
         data = []
 
         data.append(driver.find_element_by_css_selector(
-            '#main > article > div > div.grid__cell.unit-2-3--desktop > section.artist-charts > div.tab-page.selected > div > table > tbody > tr.chart-runs > td > div > div.track-info > div > div.grid__cell.unit-7-12--desktop > table > tbody > tr:nth-child(1) > td:nth-child(2)').text);
+            '#main > article > div > div.grid__cell.unit-2-3--desktop > section.artist-charts > div.tab-page.selected > div > table > tbody > tr.chart-runs > td > div > div.track-info > div > div.grid__cell.unit-7-12--desktop > table > tbody > tr:nth-child(1) > td:nth-child(2)').text)
         data.append(driver.find_element_by_css_selector(
             '#main > article > div > div.grid__cell.unit-2-3--desktop > section.artist-charts > div.tab-page.selected > div > table > tbody > tr.chart-runs > td > div > div.track-info > div > div.grid__cell.unit-7-12--desktop > table > tbody > tr:nth-child(3) > td:nth-child(2)').text)
         data.append(driver.find_element_by_css_selector(
