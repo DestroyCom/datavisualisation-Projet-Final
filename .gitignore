@@ -2,3 +2,4 @@
 bots/spotify-Scraper/.env
 geckodriver.log
 ./geckodriver.log
+../geckodriver.log
