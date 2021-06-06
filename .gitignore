@@ -1,0 +1,4 @@
+.env
+bots/spotify-Scraper/.env
+geckodriver.log
+./geckodriver.log

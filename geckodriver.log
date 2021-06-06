@@ -2057,3 +2057,173 @@ JavaScript error: chrome://global/content/elements/browser-custom-element.js, li
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1622996611916	geckodriver	INFO	Listening on 127.0.0.1:49687
+1622996614961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileByDAJw"
+1622996615549	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileByDAJw\\search.json.mozlz4", (void 0)))
+1622996619712	Marionette	INFO	Listening on port 49696
+1622996619788	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/CdDdhZfPbLLrfYLBdThNS0-Y/styles__ltr.css without a browsingContextID set
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1622998454452	Marionette	INFO	Stopped listening on port 49696
+2996795132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile4peGEY"
+1622996795539	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile4peGEY\\search.json.mozlz4", (void 0)))
+1622996798286	Marionette	INFO	Listening on port 49887
+1622996798308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+1622996814732	Marionette	INFO	Stopped listening on port 49887
+1622996833630	geckodriver	INFO	Listening on 127.0.0.1:50075
+1622996836698	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile8bsWMT"
+1622996837204	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile8bsWMT\\search.json.mozlz4", (void 0)))
+1622996840102	Marionette	INFO	Listening on port 50084
+1622996840386	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/CdDdhZfPbLLrfYLBdThNS0-Y/styles__ltr.css without a browsingContextID set
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622998455140	Marionette	INFO	Stopped listening on port 50084
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileljlqsb"
+1622996906587	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileljlqsb\\search.json.mozlz4", (void 0)))
+1622996909495	Marionette	INFO	Listening on port 50225
+1622996909802	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/CdDdhZfPbLLrfYLBdThNS0-Y/styles__ltr.css without a browsingContextID set
+1622998457359	Marionette	INFO	Stopped listening on port 50225
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofiletaJfyF\\search.json.mozlz4", (void 0)))
+1622996945864	Marionette	INFO	Listening on port 50335
+1622996946321	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/CdDdhZfPbLLrfYLBdThNS0-Y/styles__ltr.css without a browsingContextID set
+1622998459905	Marionette	INFO	Stopped listening on port 50335
+2997011719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileGVAsnr"
+1622997012148	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileGVAsnr\\search.json.mozlz4", (void 0)))
+1622997015282	Marionette	INFO	Listening on port 50493
+1622997015419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/CdDdhZfPbLLrfYLBdThNS0-Y/styles__ltr.css without a browsingContextID set
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622998460407	Marionette	INFO	Stopped listening on port 50493
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileQyKGxF"
+1622997075452	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileQyKGxF\\search.json.mozlz4", (void 0)))
+1622997078141	Marionette	INFO	Listening on port 50649
+1622997078650	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/CdDdhZfPbLLrfYLBdThNS0-Y/styles__ltr.css without a browsingContextID set
+1622998461100	Marionette	INFO	Stopped listening on port 50649
+2997193318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile1KuqSH"
+1622997193870	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile1KuqSH\\search.json.mozlz4", (void 0)))
+1622997197429	Marionette	INFO	Listening on port 54001
+1622997197499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+1622998461763	Marionette	INFO	Stopped listening on port 54001
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileX3h5XV"
+1622997267096	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileX3h5XV\\search.json.mozlz4", (void 0)))
+1622997271319	Marionette	INFO	Listening on port 55057
+1622997271838	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gstatic.com/recaptcha/releases/CdDdhZfPbLLrfYLBdThNS0-Y/styles__ltr.css without a browsingContextID set
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1622998462459	Marionette	INFO	Stopped listening on port 55057
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile9JKQSd"
+1622997770987	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile9JKQSd\\search.json.mozlz4", (void 0)))
+1622997774069	Marionette	INFO	Listening on port 58116
+1622997774177	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+1622997791741	Marionette	INFO	Stopped listening on port 58116
+1622998119231	geckodriver	INFO	Listening on 127.0.0.1:52122
+1622998122316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileJb2dkf"
+1622998122720	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileJb2dkf\\search.json.mozlz4", (void 0)))
+1622998125362	Marionette	INFO	Listening on port 52131
+1622998125475	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 103: Error: Connection closed, pending request to server0.conn0.child4/domnode312, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+showTextEditor/done/</<@resource://devtools/client/inspector/markup/views/text-editor.js:101:25
+do@resource://devtools/client/shared/undo.js:70:16
+endBatch@resource://devtools/client/shared/undo.js:81:11
+do@resource://devtools/client/shared/undo.js:93:10
+showTextEditor/done/<@resource://devtools/client/inspector/markup/views/text-editor.js:99:31
+process@resource://gre/modules/Promise-backend.js:961:38
+walkerLoop@resource://gre/modules/Promise-backend.js:845:29
+Promise*scheduleWalkerLoop@resource://gre/modules/Promise-backend.js:775:19
+schedulePromise@resource://gre/modules/Promise-backend.js:809:12
+completePromise@resource://gre/modules/Promise-backend.js:741:12
+
+1622998463422	Marionette	INFO	Stopped listening on port 52131
+998265889	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileXwDh6I"
+1622998266302	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileXwDh6I\\search.json.mozlz4", (void 0)))
+1622998269027	Marionette	INFO	Listening on port 60799
+1622998269091	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+1622998282503	Marionette	INFO	Stopped listening on port 60799
+1622998388784	geckodriver	INFO	Listening on 127.0.0.1:59631
+1622998391813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile2n4Asf"
+1622998392251	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofile2n4Asf\\search.json.mozlz4", (void 0)))
+1622998395371	Marionette	INFO	Listening on port 59641
+1622998395502	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+1622998408879	Marionette	INFO	Stopped listening on port 59641
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622998447291	geckodriver	INFO	Listening on 127.0.0.1:61060
+1622998450343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileFYCqEO"
+1622998451079	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\azeve\\AppData\\Local\\Temp\\rust_mozprofileFYCqEO\\search.json.mozlz4", (void 0)))
+1622998455437	Marionette	INFO	Listening on port 56270
+1622998455695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.3cc80487.js, line 1: Error: LibraryAPI is not available for anonymous users!
+1622998469938	Marionette	INFO	Stopped listening on port 56270
