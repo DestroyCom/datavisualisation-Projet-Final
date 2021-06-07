@@ -1,18 +1,6 @@
-#heroleft {
-    background: url("../img/beatlespochette.jpg");
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    width: 50%;
-    display: flex;
-}
-#heroright {
-    background: url("../img/RSpochette.jpg");
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    width: 50%;
-    display: flex;
-}
+html, body{
+    margin : 0,
+    padding : 0
+    }
+
+
