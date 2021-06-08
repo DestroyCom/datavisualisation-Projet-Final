@@ -3,6 +3,7 @@ body > header {
     justify-content: space-evenly;
     align-items: center;
     padding: 5vh 10%;
+    position: absolute;
 }
 
 .logovs {
