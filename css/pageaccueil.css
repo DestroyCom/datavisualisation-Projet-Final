@@ -51,4 +51,38 @@ html, body{
 .concert, .stream{
     position: relative;
     top: -100vh;
+    margin-left: 350px;
+    color: red;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: silver;
+}
+
+.vote{
+    position: absolute;
+    margin-left: 680px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border-radius: 100%;
+    background-color: rgb(255, 0, 0);
+    margin-top: 600px;
+    padding: 20px;
+}
+
+.selectdata{
+    position: absolute;
+    font-size: 50px;
+    color: snow;
+    margin-left: 610px;
+    margin-top: 300px;
+}
+
+.logobeatles, .logors{
+    color: snow;
+    font-size: 50px;
+
+}
+
+header{
+    margin-left: 240px;
 }
