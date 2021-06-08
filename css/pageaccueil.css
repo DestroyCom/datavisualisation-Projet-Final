@@ -3,54 +3,52 @@ html, body{
     padding : 0;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+    overflow: visible ;
+    height: 100vh;
+    width: 100%;
     }
 
-#heroleft{
+#heroleft, #heroright{
     width: 50%;
     height: 100vh;
 }
 
-#heroright{
-    height: 100vh;
-    width: 50%;
-    
-}
 
 
-
-.pochette1{
+.pochette1, .pochette2{
     width:100%; 
     height:100vh; 
+    z-index: -4;
 }
 
-.pochette2{
-    width:100%; 
-    height:100vh;
+
+
+.groupe1, .groupe2{
+    position: relative;
+    top: -60vh;
+    width: 100%;
+    height: 60vh;
 }
 
 .fond {
-    position: absolute;
-    z-index: 1;
+    position: relative;
+    z-index: -1;
     width: 100%;
     height: 100vh;
     background-color: black;
     opacity: 0.5;
 }
 
-.groupe1, .groupe2{
-    z-index: 2;
-    position: relative;
+/*.groupe1, .groupe2{
+    z-index: 3;
     bottom: 0;
     width:100%; 
     height:60vh;
     
 }
+*/
 
-
-.concerts, .streams{
-    z-index: 4;
-    margin-left: 350px;
-    margin-top: 250px;
-
+.concert, .stream{
+    position: relative;
+    top: -100vh;
 }
