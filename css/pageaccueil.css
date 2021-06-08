@@ -55,7 +55,7 @@ html, body{
     color: red;
     font-size: 30px;
     border-radius: 10px;
-    background-color: silver;
+    background-color: rgba(24, 22, 22, 0.3);
 }
 
 .vote{
