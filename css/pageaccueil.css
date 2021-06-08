@@ -68,3 +68,11 @@ html, body{
     margin-top: 600px;
     padding: 20px;
 }
+
+.selectdata{
+    position: absolute;
+    font-size: 50px;
+    color: snow;
+    margin-left: 610px;
+    margin-top: 300px;
+}
