@@ -1,0 +1,10 @@
+body > .onglet {
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+body > h2 {
+    justify-content: center;
+}
