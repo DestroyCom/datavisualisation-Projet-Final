@@ -69,6 +69,15 @@ html, body{
     padding: 20px;
 }
 
+.texte{
+    position: absolute;
+    font-size: 2em;
+    color: snow;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 200px;
+}
+
 .selectdata{
     position: absolute;
     font-size: 50px;
