@@ -6,4 +6,8 @@ geckodriver.log
 geckodriver
 *.log
 geckodriver.log
-PDO
+credentials
+./credentials
+credentials-GITIGNORE/credentials.php
+credentials-GITIGNORE/lastfm.js
+credentials-GITIGNORE
