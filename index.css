@@ -29,9 +29,48 @@ body {
 
 .name1, .name2{
     color: white;
-    text-align: center;
+}
+
+.name1{
+    margin-left:100px;
+}
+
+.name2{
+    margin-left:190px;
 }
 
 .bloc{
     background-color: gray;
+    width: 200vh;
+    height: 52vh;
+    margin-left: 15px;
+    
+}
+
+.select{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+}
+
+.boutons{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.bouton1{
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    font-size: 65px;
+    margin-right: 40px;
+}
+
+.bouton2{
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    font-size: 65px;
+    margin-left:40px;
 }
