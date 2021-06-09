@@ -29,9 +29,9 @@ Our datas is based on the websites :
 # Contact
 |  Who                        	| Mail 	| LinkedIn  | GitHub | Portfolio 	|
 |--------------------------	|------	|---------- |-----------		|-----------	|
-| Verger Eva               	|    [HERE](eva.verger@hetic.net)  	|     [HERE](https://www.linkedin.com/in/eva-verger/)     	|  [HERE](https://github.com/eva-vrg)    |     	|
-| Albuquerque Adrien      	|    [HERE](adrien.albuquerque@hetic.net)  	|      [HERE](https://www.linkedin.com/in/adrien-albuquerque-213314177/)  |  [HERE](https://github.com/ADR1811)	|           	|
-| Jamais Stanley           	|    [HERE](stanley.jamais@hetic.net)  	|     [HERE](https://www.linkedin.com/in/stanley-jamais-138a991a9/)   |  [HERE](https://github.com/Stan-Jms)	|           	|
-| Azevedo Da Silva Antoine 	|   [HERE](antoine.azevedo-da-silva@hetic.net)   	|      [HERE](https://www.linkedin.com/in/antoine-ads/) |  [HERE](https://github.com/DestroyCom) 	|        [HERE](https://destroykeaum.alwaysdata.net/)   	|
-| Buisson Thomas           	|   [HERE](thomas.buisson@hetic.net)   	|     [HERE](https://www.linkedin.com/in/buissonthomas64/)   | [HERE](https://github.com/ThomAzgo) 	|           	|
-| Roucourt Olivier         	|    [HERE](olivier.roucourt@hetic.net)  	|     [HERE](https://www.linkedin.com/in/olivier-roucourt-48a1421b9/)   |  [HERE](https://github.com/deyja8)	|           	|
+| Verger Eva               	|    eva.verger@hetic.net  	|     [HERE](https://www.linkedin.com/in/eva-verger/)     	|  [HERE](https://github.com/eva-vrg)    |     	|
+| Albuquerque Adrien      	|    adrien.albuquerque@hetic.net  |      [HERE](https://www.linkedin.com/in/adrien-albuquerque-213314177/)  |  [HERE](https://github.com/ADR1811)	|           	|
+| Jamais Stanley           	|    stanley.jamais@hetic.net  	|     [HERE](https://www.linkedin.com/in/stanley-jamais-138a991a9/)   |  [HERE](https://github.com/Stan-Jms)	|           	|
+| Azevedo Da Silva Antoine 	|   antoine.azevedo-da-silva@hetic.net  	|      [HERE](https://www.linkedin.com/in/antoine-ads/) |  [HERE](https://github.com/DestroyCom) 	|        [HERE](https://destroykeaum.alwaysdata.net/)   	|
+| Buisson Thomas           	|   thomas.buisson@hetic.net	|     [HERE](https://www.linkedin.com/in/buissonthomas64/)   | [HERE](https://github.com/ThomAzgo) 	|           	|
+| Roucourt Olivier         	|    olivier.roucourt@hetic.net  	|     [HERE](https://www.linkedin.com/in/olivier-roucourt-48a1421b9/)   |  [HERE](https://github.com/deyja8)	|           	|
