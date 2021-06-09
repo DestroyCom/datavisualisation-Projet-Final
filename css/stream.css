@@ -1,0 +1,35 @@
+#hero{
+    flex-direction: column;
+}
+
+.stream{
+    display: flex;
+    justify-content: space-around;
+}
+
+.group{
+    width: 80%;
+    margin: 5%;
+}
+
+.ligne{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ligne div{
+    margin: 2%;
+}
+
+.ligne div>img{
+    width: auto;
+    max-height: 100px;
+}
+
+.ligne div>p{
+    width: 200px;
+    min-height: 32px;
+    max-height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
