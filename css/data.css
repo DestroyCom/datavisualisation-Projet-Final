@@ -1,13 +1,13 @@
-* {
+/* * {
     overflow: hidden;
 }
 
-#hero {
-    background-color: #504949;
-    mix-blend-mode: normal;
-    color: #fff;
+body{
     display: flex;
-    padding-bottom: 100%;
+    flex-direction: column;
+}
+header{
+    z-index: 1000;
 }
 
 .onglet{
@@ -25,28 +25,61 @@
     color: #fff;
 }
 .onglet > h2{
-    padding-right:2%;
-    padding-left: 2%;
+    padding-right:7%;
+    padding-left: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
+.concert{
+    color: #fff;
+    z-index: 1;
+    display: flex;
+}
 .concert > h1 {
-    display: flex;
-    margin-left: 50%;
-    margin-top: 50%;
-    padding-top: 10%;
+    /* position: absolute;
+    width: 25%;
+    left: 50%;
+    top: 40%; */
 }
-
 .map {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
+    /* position: absolute;
+    width: 25%;
+    left: 50%;
+    top: 60%; */
+}
+.vote {
+    /* position: absolute;
+    width: 25%;
+    left: 50%;
+    top: 90%; */
 }
 
-.vote {
+/* .bgtransparent {
+    background-color: #504949;
+    mix-blend-mode: normal;
+    color: #fff;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5%;
-    justify-content: center;
+    padding: 100%;
+    z-index: 0;
+}  */
+
+
+.st0{
+    fill: red;
+    stroke: chartreuse;
+    stroke-width:0.5;
+}
+.st0:hover{
+    fill:blue;
+}
+#couchezero{
+    z-index: 0;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 100vh;
+    overflow: hidden;
+}
+#couchezero>img{
+    height:100% ;
 }
