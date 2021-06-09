@@ -8,65 +8,17 @@ html, body{
     width: 100%;
     }
 
-#heroleft, #heroright{
-    width: 50%;
-    height: 100vh;
+header{
+    margin-left: 240px;
 }
 
-
-.pochette1, .pochette2{
-    width: 100%; 
-    height: 100vh; 
-    z-index: -4;
-    opacity: 40%;
-}
-
-
-.groupe1, .groupe2{
-    position: relative;
-    top: -60vh;
-    width: 100%;
-    height: 60vh;
-    opacity: 95%;
-}
-
-.fond {
-    position: relative;
-    z-index: -1;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    opacity: 2;
-}
-
-/*.groupe1, .groupe2{
-    z-index: 3;
-    bottom: 0;
-    width:100%; 
-    height:60vh;
-    
-}
-*/
-
-.concert, .stream{
-    position: relative;
-    top: -100vh;
-    margin-left: 350px;
-    color: red;
-    font-size: 30px;
-    border-radius: 10px;
-    background-color: silver;
-}
-
-.vote{
+.texte{
     position: absolute;
-    margin-left: 680px;
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    border-radius: 100%;
-    background-color: rgb(255, 0, 0);
-    margin-top: 600px;
-    padding: 20px;
+    font-size: 2em;
+    color: snow;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 200px;
 }
 
 .selectdata{
@@ -77,12 +29,69 @@ html, body{
     margin-top: 300px;
 }
 
+/* Logo des groupes */
+
 .logobeatles, .logors{
     color: snow;
     font-size: 50px;
-
 }
 
-header{
-    margin-left: 240px;
+/* disposition artistes */
+
+#heroleft, #heroright{
+    width: 50%;
+    height: 100vh;
+}
+
+/* pochettes d'album arrière plan */
+
+.pochette1, .pochette2{
+    width: 100%; 
+    height: 100vh; 
+    z-index: -4;
+    opacity: 40%;
+}
+
+/* photo des groupes en clash */ 
+
+.groupe1, .groupe2{
+    position: relative;
+    top: -60vh;
+    width: 100%;
+    height: 60vh;
+    opacity: 95%;
+}
+
+/* arrière-plan */
+
+.background {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 2;
+}
+
+/* Boutons concert, stream et vote */
+
+.concert, .stream{
+    position: relative;
+    top: -100vh;
+    margin-left: 350px;
+    color: snow;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgba(24, 22, 22, 0.3);
+}
+
+.vote{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 600px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border-radius: 100%;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
 }
