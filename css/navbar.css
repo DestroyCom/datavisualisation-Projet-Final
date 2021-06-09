@@ -2,8 +2,7 @@ body > header {
     display : flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 5vh 10%;
-    position: absolute;
+    padding: 5vh 30%;
 }
 
 .logovs {

@@ -1,17 +1,29 @@
+* {
+    overflow: hidden;
+}
+
 #hero {
-    background-color: rgba(80, 73, 73, 0.6);
+    background-color: #504949;
     mix-blend-mode: normal;
     color: #fff;
+    display: flex;
+    padding-bottom: 100%;
 }
 
-.onglet {
-    display : flex;
-    padding: inherit;
-    background-color: rgba(80, 73, 73, 0.6);
-    mix-blend-mode: normal;
+.onglet{
+    display: flex;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.onglet > h2:first-child{
+    background-color: #504949;
     color: #fff;
 }
-
+.onglet > h2:nth-child(2){
+    background-color: #8F8F8F;
+    color: #fff;
+}
 .onglet > h2{
     padding-right:2%;
     padding-left: 2%;
@@ -19,18 +31,22 @@
 
 .concert > h1 {
     display: flex;
-    justify-content: center;
-    padding-top: 5%;
+    margin-left: 50%;
+    margin-top: 50%;
+    padding-top: 10%;
 }
 
 .map {
     display: flex;
-    justify-content: center;
-    margin-top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 }
 
 .vote {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
     justify-content: center;
-    margin-top: 35vh;
 }
