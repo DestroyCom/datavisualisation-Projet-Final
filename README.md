@@ -1,4 +1,5 @@
 # Rock Band Versus
+### PAR L'EQUIPE 13
 - ***FR*** : Un site de datavisualisation mettant en confrontations diverse donnée liées a certains groupes de rock.
 - ***EN*** : A datavisualization website showing various data related to some rock bands.
 
