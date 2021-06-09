@@ -1,5 +1,5 @@
 <?php 
-    include_once('credentials/credentials.php');
+    include_once('credentials-GITIGNORE/credentials.php');
 
 ?>
 

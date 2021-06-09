@@ -1,5 +1,5 @@
 <?php 
-    include_once('../credentials/credentials.php');
+    include_once('../credentials-GITIGNORE/credentials.php');
     
     if(isset($_GET['groupe'])){
         $groupe = htmlspecialchars($_GET['groupe']);
