@@ -5,11 +5,11 @@
 
 
 ## D'où viennent les données ? / Where does the data come from?
-Our datas is based on the websites :
+***FR*** : Nos datas sont récupérée sur les sites internet suivant  // ***EN*** : Our datas is based on the following websites :
 * [SETLIST.fm](https://www.setlist.fm/) (python scraper)
 * Spotify via :
   - [sp-playcount-librespot](https://github.com/evilarceus/sp-playcount-librespot) (API)
-  - A python scraper developed in-house
+  - A python scraper developed in-house 
 - [last.fm](https://www.last.fm/) (API)
 
 ## Qui sommes nous ? / Who are we ?
