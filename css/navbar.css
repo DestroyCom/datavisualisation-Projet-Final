@@ -5,7 +5,6 @@ header {
     flex-direction: row;
     justify-content: space-evenly;
     z-index: 5000000000000;
-    
 }
 
 header>div:first-child>img {
