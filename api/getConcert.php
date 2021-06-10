@@ -1,10 +1,6 @@
 <?php 
-    $user='rock-band_db';
-    $pass='mo2passDB';
+    include_once('../credentials-GITIGNORE/credentials.php');
     
-    $pdo = new PDO('mysql:host=mysql-rock-band.alwaysdata.net;dbname=rock-band_db', $user, $pass, [
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-    ]);
     $request_method = $_SERVER["REQUEST_METHOD"];
     $idGroupe = $_GET['var1'];
     $query="SELECT *FROM concerts WHERE ID_Groupe=".$idGroupe."";
