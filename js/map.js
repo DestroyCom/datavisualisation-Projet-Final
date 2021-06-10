@@ -1,5 +1,7 @@
 function ColorMap(json){
     var max=0
+    
+    
     json.forEach(function(currentValue,index) {
         try{
             if(parseInt(currentValue["Nombre_Concert"])>max){
@@ -52,7 +54,13 @@ function ColorMap(json){
 
 }
 
-
+function MapReset(){
+    allPath=document.getElementsByClassName("st0");
+    
+    for (var i = 0; i < allPath.length; i++) {
+        document.getElementById(allPath[i].id).style.fill=""
+      }
+}
 
 
 function WicheMapColor(groupe){
@@ -79,7 +87,9 @@ document.getElementById("logobeatles").addEventListener('click', function(){
   if (document.getElementById("groupe2")!="undefined")
   {
     document.getElementById("groupe2").id="groupe1";
+    MapReset();
     WicheMapColor(1);
+
   }
   });
 
@@ -88,6 +98,7 @@ document.getElementById("logors").addEventListener('click', function(){
   if (document.getElementById("groupe1")!="undefined")
   {
     document.getElementById("groupe1").id="groupe2";
+    MapReset();
     WicheMapColor(2);
   }
   });
