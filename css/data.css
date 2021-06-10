@@ -1,4 +1,57 @@
 *{
     background-color: #000;
     color: white;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+main>section:first-child{
+    display: flex;
+    flex-direction: row;
+}
+main>section:first-child>div:first-child{
+    background-color: #353131;
+    font-size: 2vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+}
+main>section:first-child>div:last-child{
+    background-color: #8F8F8F;
+    font-size: 2vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+}
+#PageMap{
+    height: 75vh;
+    background-color: #353131;
+   
+    
+}
+svg{
+    height: 70%;
+    display: block;
+    margin: auto;
+    background-color: #353131;
+    margin-top: 1%;
+
+}
+#PageStream{
+    height: 75vh;
+    background-color: #353131;
+
+}
+
+
+.hidden{
+    display: none;
+}
+.st0{
+    fill: cornflowerblue;
+    stroke: white;
+    stroke-width:0.5;
+    background-color: #353131;
+}
+.st0:hover{
+    fill:blue;
+    stroke: black;
 }
