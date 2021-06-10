@@ -13,3 +13,4 @@ document.getElementById("concert").addEventListener('click', function(){
     document.getElementById("PageMap").classList.remove("hidden");
     document.getElementById("Calque_1").classList.remove("hidden");
   });
+

@@ -8,21 +8,19 @@
     </head>
     <body>
         <?php require_once("header.php");?>
-        <main>
+        <main id="groupe1">
             <section>
                 <div id="concert">Concert</div>
                 <div id ="stream">Stream</div>
             </section>
             
             <section id="PageMap">
-                <?xml version="1.0" encoding="utf-8"?>
-                
-                <?php require_once("img/worldHigh.svg");?>
+                <?php require("img/worldHigh.svg");?>
             </section>
 
             <section id="PageStream"class="hidden">
 
-            </section>
+            </section>  
         </main>
         
     </body>

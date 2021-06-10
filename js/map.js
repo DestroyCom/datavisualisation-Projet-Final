@@ -53,13 +53,41 @@ function ColorMap(json){
 }
 
 
-var requestURL = 'api/getConcert.php?var1=2';
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-request.onload = function() {
 
-    ColorMap(request.response);
+
+function WicheMapColor(groupe){
+    var requestURL = 'api/getConcert.php?var1='+groupe;
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+
+        ColorMap(request.response);
     
-};
+    };
+}
+if (document.getElementById("groupe1")!="undefined")
+{
+    WicheMapColor(1);
+}
+else if(document.getElementById("groupe2")!="undefined"){
+    WicheMapColor(2);
+}
+
+document.getElementById("logobeatles").addEventListener('click', function(){
+  if (document.getElementById("groupe2")!="undefined")
+  {
+    document.getElementById("groupe2").id="groupe1";
+    WicheMapColor(1);
+  }
+  });
+
+
+document.getElementById("logors").addEventListener('click', function(){
+  if (document.getElementById("groupe1")!="undefined")
+  {
+    document.getElementById("groupe1").id="groupe2";
+    WicheMapColor(2);
+  }
+  });
