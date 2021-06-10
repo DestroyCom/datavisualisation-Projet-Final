@@ -13,27 +13,28 @@ function ColorMap(json){
     
     json.forEach(function(currentValue,index) {
         try{
+            if( parseInt(currentValue["Nombre_Concert"])< (max*0.25) &&  parseInt(currentValue["Nombre_Concert"])>1){
+                document.getElementById(currentValue["ISO"]).style.fill="#f0bb00";
 
-            switch (parseInt(currentValue["Nombre_Concert"])) {
-                case max:
-                    
-                    document.getElementById(currentValue["ISO"]).style.fill="#921616";
-                    console.log("NON")
-                    break;
-                case 'Mangoes':
-                    console.log('Oranges are $0.59 a pound.');
-                    break;
-
-                case 'Papayas':
-                    console.log('Mangoes and papayas are $2.79 a pound.');
-                  // expected output: "Mangoes and papayas are $2.79 a pound."
-                    break;
-                default:
-                    console.log(max);
-                    document.getElementById(currentValue["ISO"]).style.fill="#00FF00";
-                    
-                    break;
             }
+            else if(parseInt(currentValue["Nombre_Concert"])<(max*0.5)){
+                document.getElementById(currentValue["ISO"]).style.fill="#F16E00";
+
+            }
+            else if(parseInt(currentValue["Nombre_Concert"])<(max*0.75)){
+                document.getElementById(currentValue["ISO"]).style.fill="#FB0101";
+                console.log("oui");
+
+            }
+            else if(parseInt(currentValue["Nombre_Concert"])<(max*0.99)){
+                document.getElementById(currentValue["ISO"]).style.fill="#FB0101";
+
+            }
+            else{
+                document.getElementById(currentValue["ISO"]).style.fill="#940404";
+            }
+            
+        }
               
             
             // document.getElementById(currentValue["ISO"]).style.fill="#00FF00";
@@ -42,7 +43,7 @@ function ColorMap(json){
             // document.getElementById(currentValue["ISO"]).style.fill="rgba(0,255,0,"+a+")";
             
             
-        }
+        
         catch{
             console.log("Color Map Finish")
         }
@@ -52,7 +53,7 @@ function ColorMap(json){
 }
 
 
-var requestURL = 'getConcert.php?var1=2';
+var requestURL = 'api/getConcert.php?var1=2';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
