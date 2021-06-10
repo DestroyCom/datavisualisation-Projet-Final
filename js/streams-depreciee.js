@@ -1,10 +1,15 @@
+//import {apiKey} from 'credentials/lastfm.js'
+
 var API_KEY = 'd7c19e822e436a0ee056a6a73f71b04d';
 var requestSpotify = new XMLHttpRequest();
 var requestMonthly = new XMLHttpRequest();
 var requestGroupe = new XMLHttpRequest();
 
+var queryString = window.location.search;
+var urlParams = new URLSearchParams(queryString);
+//var groupeParam = urlParams.get('groupe');
+
 function displayStream(groupeParam) {
-    console.log(groupeParam, 'test');
     if (groupeParam != null) {
         let groupURL = 'api/getGroupAPI.php?groupe=' + groupeParam;
         requestGroupe.open('GET', groupURL);
@@ -18,7 +23,6 @@ function displayStream(groupeParam) {
 
             requestSpotify.open('GET', spotifyReqURL, true);
             requestSpotify.onload = function () {
-                document.querySelector('.titres').innerHTML = '';
                 for (let i = 0; i < 5; i++) {
                     let data = JSON.parse(requestSpotify.responseText);
 
@@ -51,7 +55,7 @@ function displayStream(groupeParam) {
                         div.appendChild(img)
                         div.appendChild(titre)
                         div.appendChild(ecoutes)
-                    
+
                         document.querySelector('.titres').appendChild(div);
                     }
                     coverRequest.send()
@@ -69,7 +73,6 @@ function displayStream(groupeParam) {
             if (dataMonthly == 'ERREUR') {
 
             } else {
-                document.querySelector('.pays').innerHTML = '';
                 for (let i = 0; i < 5; i++) {
                     let div = document.createElement('div');
 
@@ -98,112 +101,3 @@ function displayStream(groupeParam) {
     }
 
 }
-
-function ColorMap(json){
-    var max=0
-    
-    
-    json.forEach(function(currentValue,index) {
-        try{
-            if(parseInt(currentValue["Nombre_Concert"])>max){
-                max=parseInt(currentValue["Nombre_Concert"]);
-            }    
-        }
-        catch{
-            
-        }
-    });
-    
-    json.forEach(function(currentValue,index) {
-        try{
-            if( parseInt(currentValue["Nombre_Concert"])< (max*0.25) &&  parseInt(currentValue["Nombre_Concert"])>1){
-                document.getElementById(currentValue["ISO"]).style.fill="#f0bb00";
-
-            }
-            else if(parseInt(currentValue["Nombre_Concert"])<(max*0.5)){
-                document.getElementById(currentValue["ISO"]).style.fill="#F16E00";
-
-            }
-            else if(parseInt(currentValue["Nombre_Concert"])<(max*0.75)){
-                document.getElementById(currentValue["ISO"]).style.fill="#FB0101";
-                console.log("oui");
-
-            }
-            else if(parseInt(currentValue["Nombre_Concert"])<(max*0.99)){
-                document.getElementById(currentValue["ISO"]).style.fill="#FB0101";
-
-            }
-            else{
-                document.getElementById(currentValue["ISO"]).style.fill="#940404";
-            }
-            
-        }
-              
-            
-            // document.getElementById(currentValue["ISO"]).style.fill="#00FF00";
-            
-            // console.log(a);
-            // document.getElementById(currentValue["ISO"]).style.fill="rgba(0,255,0,"+a+")";
-            
-            
-        
-        catch{
-            console.log("Color Map Finish")
-        }
-    });
-    
-
-}
-
-function MapReset(){
-    allPath=document.getElementsByClassName("st0");
-    
-    for (var i = 0; i < allPath.length; i++) {
-        document.getElementById(allPath[i].id).style.fill=""
-      }
-}
-
-
-function WicheMapColor(groupe){
-    var requestURL = 'api/getConcert.php?var1='+groupe;
-    var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-    request.onload = function() {
-
-        ColorMap(request.response);
-    
-    };
-}
-if (document.getElementById("groupe1")!="undefined")
-{
-    WicheMapColor(1);
-    displayStream(1);
-}
-else if(document.getElementById("groupe2")!="undefined"){
-    WicheMapColor(2);
-    displayStream(2);
-}
-
-document.getElementById("logobeatles").addEventListener('click', function(){
-  if (document.getElementById("groupe2")!="undefined")
-  {
-    document.getElementById("groupe2").id="groupe1";
-    MapReset();
-    WicheMapColor(1);
-    displayStream(1);
-
-  }
-  });
-
-
-document.getElementById("logors").addEventListener('click', function(){
-  if (document.getElementById("groupe1")!="undefined")
-  {
-    document.getElementById("groupe1").id="groupe2";
-    MapReset();
-    WicheMapColor(2);
-    displayStream(2);
-  }
-  });

@@ -5,11 +5,12 @@
 .stream{
     display: flex;
     justify-content: space-around;
+    background-color: #353131;
 }
 
 .group{
     width: 80%;
-    margin: 5%;
+    margin: 1vh;
 }
 
 .ligne{
@@ -18,7 +19,7 @@
 }
 
 .ligne div{
-    margin: 2%;
+    margin: 1%;
 }
 
 .ligne div>img{
