@@ -1,5 +1,6 @@
 
 .stream{
+    margin-top: 10vh;
     display: flex;
     justify-content: space-around;
     background-color: #353131;
@@ -34,6 +35,9 @@
 
 
 @media only screen and (max-width: 1025px) {
+    .stream{
+        margin-top: 2vh;
+    }
     h2{
         font-size: 45px;
     }

@@ -1,7 +1,10 @@
+@import url('https://fontlibrary.org//face/catv-6x12-9');
+
 * {
     background-color: #000;
     color: white;
     overflow: hidden;
+    font-family: 'CatV6x129Normal';
 }
 
 main {
@@ -12,6 +15,7 @@ main {
 main>section:first-child {
     display: flex;
     flex-direction: row;
+    max-height: 7vh;
 }
 
 main>section:first-child>div:first-child {
@@ -27,23 +31,20 @@ main>section:first-child>div:last-child {
 }
 
 #PageMap {
-    height: 75vh;
+    height: 65vh;
     background-color: #353131;
-
-
     max-width: 100%;
     overflow: auto;
 }
 
 #PageMap>div {
     position: relative;
-    bottom: 65%;
-    left: 75%;
+    top: -60%;
+    left: 85vw;
     font-size: 3em;
     text-align: center;
     width: fit-content;
     background-color: #8F8F8F;
-
 }
 
 #PageMap>div>p {
@@ -68,7 +69,7 @@ svg {
 }
 
 #PageStream {
-    height: 75vh;
+    height: 65vh;
     background-color: #353131;
 }
 
@@ -98,7 +99,7 @@ svg {
 }
 
 @media only screen and (max-width: 1025px) {
-    #PageStream {
+    #PageStream, #PageMap {
         height: 80vh;
     }
 
@@ -107,6 +108,21 @@ svg {
         width: 25vw;
         height: 3vh;
         text-align: center;
+    }
+
+    #PageMap>div {
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 90vh;
+        left: 35vw;
+        font-size: 3em;
+        text-align: center;
+        width: fit-content;
+        background-color: #8F8F8F;
+    }
+    #PageMap>div p {
+        width: 15vw;
     }
 
 }
