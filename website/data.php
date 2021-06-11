@@ -22,6 +22,10 @@
 
         <section id="PageMap">
             <?php require("assets/img/worldHigh.svg");?>
+            <div>
+                <p id="+">+</p>
+                <p id="-">-</p>
+            </div>
         </section>
 
         <section id="PageStream" class="hidden">

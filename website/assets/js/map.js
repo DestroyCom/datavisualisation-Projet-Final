@@ -2,6 +2,7 @@ var API_KEY = 'd7c19e822e436a0ee056a6a73f71b04d';
 var requestSpotify = new XMLHttpRequest();
 var requestMonthly = new XMLHttpRequest();
 var requestGroupe = new XMLHttpRequest();
+var zoom=1;
 
 function displayStream(groupeParam) {
     console.log(groupeParam, 'test');
@@ -164,6 +165,10 @@ function MapReset(){
 }
 
 
+
+
+
+
 function WicheMapColor(groupe){
     var requestURL = 'assets/js/api/getConcert.php?var1='+groupe;
     var request = new XMLHttpRequest();
@@ -211,3 +216,21 @@ document.getElementById("logors").addEventListener('click', function(){
     displayStream(2);
   }
   });
+
+
+document.getElementById("+").addEventListener('click', function(){
+    console.log(zoom);
+    if (zoom<2){
+    zoom=zoom+0.5
+    document.getElementById("Calque_1").style.transform="scale("+zoom+")";
+    }
+
+});
+
+document.getElementById("-").addEventListener('click', function(){
+    if (zoom>1){
+    zoom=zoom-0.5
+    document.getElementById("Calque_1").style.transform="scale("+zoom+")";
+    }
+
+});
