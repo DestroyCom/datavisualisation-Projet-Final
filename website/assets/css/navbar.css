@@ -30,3 +30,7 @@ header>div>div{
     height: 7vw;
     width: 7vw;
 }
+
+.select{
+    background: radial-gradient(#C79923, #000000);
+}

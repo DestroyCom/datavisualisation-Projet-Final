@@ -190,6 +190,8 @@ document.getElementById("logobeatles").addEventListener('click', function(){
   if (document.getElementById("groupe2")!="undefined")
   {
     document.getElementById("groupe2").id="groupe1";
+    document.querySelector("#logobeatles").classList.add('select');
+    document.querySelector("#logors").classList.remove('select');
     MapReset();
     WicheMapColor(1);
     displayStream(1);
@@ -202,6 +204,8 @@ document.getElementById("logors").addEventListener('click', function(){
   if (document.getElementById("groupe1")!="undefined")
   {
     document.getElementById("groupe1").id="groupe2";
+    document.querySelector("#logors").classList.add('select');
+    document.querySelector("#logobeatles").classList.remove('select');
     MapReset();
     WicheMapColor(2);
     displayStream(2);
