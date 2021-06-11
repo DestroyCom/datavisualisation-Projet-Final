@@ -26,7 +26,7 @@ header>div:last-child>img {
 header>div>div {
     color: white;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 2.3rem;
 }
 
 .logovs {
@@ -42,20 +42,22 @@ header>div>div {
 @media only screen and (max-width: 1025px) {
     header {
         margin-top: 5%;
-        height: 20vh;
+        height: 15vh;
         justify-content: space-around;
     }
 
     header>div:first-child>img {
-        width: 100%;
+        width: 95%;
         max-height: 350px ;
+        height: 45%;
         border: 4px solid rgb(172, 172, 158);
         object-fit: cover;
     }
 
     header>div:last-child>img {
         max-height: 350px ;
-        width: 100%;
+        width: 90%;
+        height: 45%;
         border: 4px solid rgb(172, 172, 158);
         object-fit: cover;
     }
@@ -75,13 +77,14 @@ header>div>div {
     header>div>div {
         color: white;
         text-align: center;
-        font-size: 30px;
+        font-size: 2.3rem;
     }
 
     .logovs {
         margin-top: 50px;
         max-height: 300px;
-        width: 25%;
+        height: 45%;
+        width: 20%;
     }
 
 }
