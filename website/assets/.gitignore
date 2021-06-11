@@ -1,0 +1,13 @@
+.env
+bots/spotify-Scraper/.env
+geckodriver.log
+./geckodriver.log
+../geckodriver.log
+geckodriver
+*.log
+geckodriver.log
+credentials
+./credentials
+credentials-GITIGNORE/credentials.php
+credentials-GITIGNORE/lastfm.js
+credentials-GITIGNORE
