@@ -1,5 +1,5 @@
 <?php 
-    include_once('../credentials-GITIGNORE/credentials.php');
+    include_once('../../credentials-GITIGNORE/credentials.php');
     
     $request_method = $_SERVER["REQUEST_METHOD"];
     $idGroupe = $_GET['var1'];

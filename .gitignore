@@ -11,3 +11,4 @@ credentials
 credentials-GITIGNORE/credentials.php
 credentials-GITIGNORE/lastfm.js
 credentials-GITIGNORE
+.vscode

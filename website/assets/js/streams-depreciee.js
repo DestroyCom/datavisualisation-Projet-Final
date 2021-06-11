@@ -11,7 +11,7 @@ var urlParams = new URLSearchParams(queryString);
 
 function displayStream(groupeParam) {
     if (groupeParam != null) {
-        let groupURL = 'api/getGroupAPI.php?groupe=' + groupeParam;
+        let groupURL = '../api/getGroupAPI.php?groupe=' + groupeParam;
         requestGroupe.open('GET', groupURL);
         requestGroupe.onload = function () {
             let spotifyID = '';
@@ -66,7 +66,7 @@ function displayStream(groupeParam) {
         }
         requestGroupe.send();
 
-        monthlyURL = 'api/monthlySpotifyAPI.php?groupe=' + groupeParam;
+        monthlyURL = '../api/monthlySpotifyAPI.php?groupe=' + groupeParam;
         requestMonthly.open('GET', monthlyURL);
         requestMonthly.onload = function () {
             var dataMonthly = JSON.parse(requestMonthly.responseText);

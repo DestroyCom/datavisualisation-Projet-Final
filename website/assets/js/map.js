@@ -6,7 +6,7 @@ var requestGroupe = new XMLHttpRequest();
 function displayStream(groupeParam) {
     console.log(groupeParam, 'test');
     if (groupeParam != null) {
-        let groupURL = 'api/getGroupAPI.php?groupe=' + groupeParam;
+        let groupURL = 'assets/js/api/getGroupAPI.php?groupe=' + groupeParam;
         requestGroupe.open('GET', groupURL);
         requestGroupe.onload = function () {
             let spotifyID = '';
@@ -62,7 +62,7 @@ function displayStream(groupeParam) {
         }
         requestGroupe.send();
 
-        monthlyURL = 'api/monthlySpotifyAPI.php?groupe=' + groupeParam;
+        monthlyURL = 'assets/js/api/monthlySpotifyAPI.php?groupe=' + groupeParam;
         requestMonthly.open('GET', monthlyURL);
         requestMonthly.onload = function () {
             var dataMonthly = JSON.parse(requestMonthly.responseText);
@@ -165,7 +165,7 @@ function MapReset(){
 
 
 function WicheMapColor(groupe){
-    var requestURL = 'api/getConcert.php?var1='+groupe;
+    var requestURL = 'assets/js/api/getConcert.php?var1='+groupe;
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
