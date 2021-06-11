@@ -15,7 +15,7 @@ function displayStream(groupeParam) {
             let data = JSON.parse(requestGroupe.responseText);
             spotifyID = data[0].spotify_ID;
 
-            let spotifyReqURL = 'https://api.t4ils.dev/artistInfo?artistid=' + spotifyID;
+            let spotifyReqURL = 'assets/js/api/getAlbum.php?artistid=' + spotifyID;
 
             requestSpotify.open('GET', spotifyReqURL, true);
             requestSpotify.onload = function () {

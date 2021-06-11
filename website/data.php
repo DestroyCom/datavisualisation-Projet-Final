@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" href="assets/css/data.css">
     <link rel="stylesheet" href="assets/css/stream.css">
+    <link rel="stylesheet" href="assets/css/global.css">
 </head>
 
 <body>
