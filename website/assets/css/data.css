@@ -29,14 +29,36 @@ main>section:first-child>div:last-child {
 #PageMap {
     height: 75vh;
     background-color: #353131;
+    max-width: 100%;
+    overflow: auto;
 }
-
+#PageMap>div{
+    position: relative;
+    bottom: 65%;
+    left: 75%;
+    font-size: 3em;
+    text-align: center;
+    width: fit-content; 
+    background-color:#8F8F8F ;
+    
+}
+#PageMap>div>p{
+    background-color: #BCBCBC; 
+    box-shadow: -4px 5px 9px 1px #000000;
+    border-radius:5px ;
+    padding: 3px;
+}
+#PageMap>div>p:active{
+    box-shadow:inset 2px 0px 20px 2px #000000;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+}
 svg {
     height: 70%;
     display: block;
     margin: auto;
     background-color: #353131;
     margin-top: 1%;
+    transform: scale(1);
 
 }
 
