@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="assets/css/navbar.css">
 <header>
     <div>
-        <img id="logobeatles" src="assets/img/beatlesgroupe.png">
+        <img id="logobeatles" src="assets/img/beatlesgroupe.png" class="select">
         <div>The Beatles</div>
     </div>
 

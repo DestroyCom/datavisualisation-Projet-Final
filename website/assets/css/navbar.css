@@ -9,24 +9,30 @@ header {
 
 header>div:first-child>img {
     
-    height: 15vw;
-    width: 15vw;
+    height: 200px;
+    width: 200px;
     border: 1px solid yellow;
+    object-fit: cover;
 }
 
 header>div:last-child>img {
-    height: 15vw;
-    width: 15vw;
+    height: 200px;
+    width: 200px;
     border: 1px solid yellow;
+    object-fit: cover;
 }
 
 header>div>div{
     color: white;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.3em;
 }
 .logovs {
     margin-top: 5%;
     height: 7vw;
     width: 7vw;
+}
+
+.select{
+    background: radial-gradient(#C79923, #000000);
 }
