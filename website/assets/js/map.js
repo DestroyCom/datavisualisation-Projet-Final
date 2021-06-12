@@ -3,9 +3,18 @@ var requestSpotify = new XMLHttpRequest();
 var requestMonthly = new XMLHttpRequest();
 var requestGroupe = new XMLHttpRequest();
 var zoom=1;
+if (localStorage["Section"]=="Stream"){
+    document.getElementById("stream").style.backgroundColor="#353131";
+    document.getElementById("concert").style.backgroundColor="#8F8F8F";
+    document.getElementById("PageStream").classList.remove("hidden");
+    document.getElementById("PageMap").classList.add("hidden");
+    document.getElementById("Calque_1").classList.add("hidden");
 
+    localStorage.removeItem("Section")
+
+}
 function displayStream(groupeParam) {
-    console.log(groupeParam, 'test');
+
     if (groupeParam != null) {
         let groupURL = 'assets/js/api/getGroupAPI.php?groupe=' + groupeParam;
         requestGroupe.open('GET', groupURL);
@@ -127,7 +136,7 @@ function ColorMap(json){
             }
             else if(parseInt(currentValue["Nombre_Concert"])<(max*0.75)){
                 document.getElementById(currentValue["ISO"]).style.fill="#FB0101";
-                console.log("oui");
+                
 
             }
             else if(parseInt(currentValue["Nombre_Concert"])<(max*0.99)){
@@ -141,10 +150,7 @@ function ColorMap(json){
         }
               
             
-            // document.getElementById(currentValue["ISO"]).style.fill="#00FF00";
             
-            // console.log(a);
-            // document.getElementById(currentValue["ISO"]).style.fill="rgba(0,255,0,"+a+")";
             
             
         
@@ -219,7 +225,6 @@ document.getElementById("logors").addEventListener('click', function(){
 
 
 document.getElementById("+").addEventListener('click', function(){
-    console.log(zoom);
     if (zoom<2){
     zoom=zoom+0.5
     document.getElementById("Calque_1").style.transform="scale("+zoom+")";
