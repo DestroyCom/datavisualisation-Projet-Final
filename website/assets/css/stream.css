@@ -4,7 +4,8 @@ h2{
 }
 
 .stream{
-    margin-top: 6vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
     display: flex;
     justify-content: space-around;
     background-color: #353131;
