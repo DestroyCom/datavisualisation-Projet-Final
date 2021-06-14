@@ -1,3 +1,5 @@
+@import url('https://fontlibrary.org//face/catv-6x12-9');
+
 body {
     background-color: black;
     overflow: hidden;
@@ -40,6 +42,7 @@ body {
 .name1,
 .name2 {
     color: white;
+    font-family: 'CatV6x129Normal';
 }
 
 .name1 {
@@ -59,13 +62,15 @@ button{
     border-radius: 5%;
     background-color: rgb(150, 32, 32);
     opacity: 50%;
-    color: seashell;
+    color: white;
+    font-family: 'CatV6x129Normal';
 }
 
 
 .title{
     color: white;
     text-align: center;
+    font-family: 'CatV6x129Normal';
 }
 
 
@@ -89,6 +94,8 @@ button{
 .tableau>div>p{
     text-align: center;
     margin-top: 0px;
+    font-family: 'CatV6x129Normal';
+    font-size: 14px;
 }
 
 
@@ -149,8 +156,8 @@ button{
         margin-top: 90px;
     }
     .groupe1,.groupe2 {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     }
     .logovs{
@@ -175,5 +182,83 @@ button{
         margin-left: 135px;
         font-size: 10px;
     }
+    .tableau {
+        display: grid; 
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        width: 470px;
+        height: 30px; 
+        justify-content: center;
+        color: white;
+        margin: auto;
+      }
+      .g1{
+        grid-column: 1; grid-row: 1;
+        border: solid 1px white;
+        
+      }
+      .g2{
+        grid-column: 2; grid-row: 1;
+        border: solid 1px white;
+      }
+      .g3{
+        grid-column: 3; grid-row: 1;
+        border: solid 1px white;
+      }
+      .g4{
+        grid-column: 4; grid-row: 1;
+        border: solid 1px white;
+      }
+      .g5{
+        grid-column: 1; grid-row: 2;
+        border: solid 1px white;
+      }
+      .g6{
+        grid-column: 2; grid-row: 2;
+        border: solid 1px white;
+      }
     
+      .g7{
+        grid-column: 3; grid-row:2 ;
+        border: solid 1px white;
+      }
+      .g8{
+        grid-column: 4; grid-row: 2;
+        border: solid 1px white;
+      }
+      .g9{
+        grid-column: 1; grid-row: 3;
+        border: solid 1px white;
+      }
+      .g10{
+        grid-column: 2; grid-row: 3;
+        border: solid 1px white;
+      }
+      .g11{
+        grid-column: 3; grid-row: 3;
+        border: solid 1px white;
+      }
+      .g12{
+        grid-column: 4; grid-row: 3;
+        border: solid 1px white;
+      }
+      .tableau>div>img{
+        width: 100%;
+        height: 13vh;
+        object-fit: cover;
+        display: block;
+    }
+
+    button{
+        font-size: 15px;
+    }
+
+    .header{
+        margin-top: -20px;
+    }
+    .tableau>div>p{
+        text-align: center;
+        margin-top: 0px;
+        font-size: 12px;
+    }
 }
