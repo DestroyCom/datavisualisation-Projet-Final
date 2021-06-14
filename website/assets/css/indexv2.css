@@ -46,11 +46,13 @@ body {
 }
 
 .name1 {
-    margin-left: 100px;
+    margin-left: 85px;
+    color: #c72323;
 }
 
 .name2 {
-    margin-left: 190px;
+    margin-left: 160px;
+    color: gold;
 }
 
 .button{
@@ -96,6 +98,9 @@ button{
     margin-top: 0px;
     font-family: 'CatV6x129Normal';
     font-size: 14px;
+}
+.tableau>div:hover{
+  opacity: 0.5;
 }
 
 
