@@ -1,31 +1,31 @@
-ID,Pays,Nmb de concert
-1,United States,256
-2,United Kingdom,232
-3,Germany,55
-4,Japan,50
-5,Canada,25
-6,Australia,18
-7,France,16
-8,Belgium,14
-9,Netherlands,14
-10,South Africa,11
-11,Switzerland,10
-12,Austria,8
-13,Spain,8
-14,Sweden,8
-15,Argentina,5
-16,Italy,5
-17,Brazil,4
-18,Ireland,4
-19,Mexico,3
-20,Venezuela,3
-21,Denmark,2
-22,Russia,2
-23,Finland,1
-24,Croatia,1
-25,Hungary,1
-26,Isle Of Man,1
-27,Luxembourg,1
-28,Norway,1
-29,New Zealand,1
-30,Slovenia,1
+ID_Groupe,Pays,Nmb de concert,ISO
+11,United States,256,US
+11,United Kingdom,232,GB
+11,Germany,55,DE
+11,Japan,50,JP
+11,Canada,25,CA
+11,Australia,18,AU
+11,France,16,FR
+11,Belgium,14,BE
+11,Netherlands,14,NL
+11,South Africa,11,ZA
+11,Switzerland,10,CH
+11,Austria,8,AT
+11,Spain,8,ES
+11,Sweden,8,SW
+11,Argentina,5,AR
+11,Italy,5,IT
+11,Brazil,4,BR
+11,Ireland,4,IE
+11,Mexico,3,MX
+11,Venezuela,3,VE
+11,Denmark,2,SE
+11,Russia,2,RU
+11,Finland,1,FI
+11,Croatia,1,HR
+11,Hungary,1,HU
+11,Isle Of Man,1,IM
+11,Luxembourg,1,LU
+11,Norway,1,NO
+11,New Zealand,1,NZ
+11,Slovenia,1,SI

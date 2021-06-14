@@ -1,35 +1,35 @@
-ID,Pays,Nmb de concert
-1,United States,892
-2,Australia,403
-3,United Kingdom,306
-4,Germany,178
-5,Canada,84
-6,France,68
-7,Sweden,34
-8,Switzerland,26
-9,Spain,26
-10,Belgium,23
-11,Netherlands,21
-12,Japan,16
-13,Italy,12
-14,Finland,11
-15,Denmark,10
-16,Norway,10
-17,New Zealand,10
-18,Ireland,9
-19,Austria,8
-20,Argentina,5
-21,Brazil,5
-22,Czech Republic,4
-23,Mexico,3
-24,Poland,3
-25,Portugal,3
-26,Hungary,2
-27,Bulgaria,1
-28,Chile,1
-29,Greece,1
-30,Isle Of Man,1
-31,Puerto Rico,1
-32,Romania,1
-33,Serbia,1
-34,Russia,1
+ID_Groupe,Pays,Nmb de concert,ISO
+10,United States,892,US
+10,Australia,403,AU
+10,United Kingdom,306,GB
+10,Germany,178,DE
+10,Canada,84,CA
+10,France,68,FR
+10,Sweden,34,SW
+10,Switzerland,26,CH
+10,Spain,26,ES
+10,Belgium,23,BE
+10,Netherlands,21,NL
+10,Japan,16,JP
+10,Italy,12,IT
+10,Finland,11,FI
+10,Denmark,10,SE
+10,Norway,10,NO
+10,New Zealand,10,NZ
+10,Ireland,9,IE
+10,Austria,8,AT
+10,Argentina,5,AR
+10,Brazil,5,BR
+10,Czech Republic,4,CZ
+10,Mexico,3,MX
+10,Poland,3,PL
+10,Portugal,3,PT
+10,Hungary,2,HU
+10,Bulgaria,1,BG
+10,Chile,1,CL
+10,Greece,1,GR
+10,Isle Of Man,1,IM
+10,Puerto Rico,1,PR
+10,Romania,1,RO
+10,Serbia,1,SR
+10,Russia,1,RU
