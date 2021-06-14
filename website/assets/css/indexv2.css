@@ -54,6 +54,14 @@ body {
     display: flex;
     justify-content: center;
 }
+button{
+    font-size: 25px;
+    border-radius: 5%;
+    background-color: rgb(150, 32, 32);
+    opacity: 50%;
+    color: seashell;
+}
+
 
 .title{
     color: white;
