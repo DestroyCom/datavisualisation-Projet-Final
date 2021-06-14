@@ -247,3 +247,8 @@ document.getElementById("-").addEventListener('click', function(){
     }
 
 });
+
+document.getElementById("logovs").addEventListener('click', function(){
+    window.location="indexv2.html"
+
+});

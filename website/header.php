@@ -18,7 +18,7 @@
         <div><?php echo $nomGroupe1['Nom_Groupe'] ?></div>
     </div>
 
-    <img class="logovs" src="assets/img/vslogo.png" alt="logovs">
+    <img id="logovs" src="assets/img/vslogo.png" alt="logovs">
 
     <div>
         <img id="logors" src=<?php echo "assets/img/" . strval($idGroupe2). "-groupe.png";?>>
