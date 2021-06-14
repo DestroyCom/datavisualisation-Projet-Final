@@ -1,3 +1,5 @@
+@import url('https://fontlibrary.org//face/catv-6x12-9');
+
 body {
     background-color: black;
     overflow: hidden;
@@ -40,14 +42,17 @@ body {
 .name1,
 .name2 {
     color: white;
+    font-family: 'CatV6x129Normal';
 }
 
 .name1 {
-    margin-left: 100px;
+    margin-left: 85px;
+    color: #c72323;
 }
 
 .name2 {
-    margin-left: 190px;
+    margin-left: 160px;
+    color: gold;
 }
 
 .button{
@@ -60,12 +65,14 @@ button{
     background-color: rgb(150, 32, 32);
     opacity: 50%;
     color: white;
+    font-family: 'CatV6x129Normal';
 }
 
 
 .title{
     color: white;
     text-align: center;
+    font-family: 'CatV6x129Normal';
 }
 
 
@@ -89,56 +96,61 @@ button{
 .tableau>div>p{
     text-align: center;
     margin-top: 0px;
+    font-family: 'CatV6x129Normal';
+    font-size: 14px;
+}
+.tableau>div:hover{
+  opacity: 0.5;
 }
 
 
- .g1{
+ #g1{
     grid-column: 1; grid-row: 1;
     border: solid 1px white;
     
   }
-  .g2{
+  #g2{
     grid-column: 2; grid-row: 1;
     border: solid 1px white;
   }
-  .g3{
+  #g3{
     grid-column: 3; grid-row: 1;
     border: solid 1px white;
   }
-  .g4{
+  #g4{
     grid-column: 4; grid-row: 1;
     border: solid 1px white;
   }
-  .g5{
+  #g5{
     grid-column: 5; grid-row: 1;
     border: solid 1px white;
   }
-  .g6{
+  #g6{
     grid-column: 6; grid-row: 1;
     border: solid 1px white;
   }
 
-  .g7{
+  #g7{
     grid-column: 1; grid-row:2 ;
     border: solid 1px white;
   }
-  .g8{
+  #g8{
     grid-column: 2; grid-row: 2;
     border: solid 1px white;
   }
-  .g9{
+  #g9{
     grid-column: 3; grid-row: 2;
     border: solid 1px white;
   }
-  .g10{
+  #g10{
     grid-column: 4; grid-row: 2;
     border: solid 1px white;
   }
-  .g11{
+  #g11{
     grid-column: 5; grid-row: 2;
     border: solid 1px white;
   }
-  .g12{
+  #g12{
     grid-column: 6; grid-row: 2;
     border: solid 1px white;
   }
@@ -185,53 +197,53 @@ button{
         color: white;
         margin: auto;
       }
-      .g1{
+      #g1{
         grid-column: 1; grid-row: 1;
         border: solid 1px white;
         
       }
-      .g2{
+      #g2{
         grid-column: 2; grid-row: 1;
         border: solid 1px white;
       }
-      .g3{
+      #g3{
         grid-column: 3; grid-row: 1;
         border: solid 1px white;
       }
-      .g4{
+      #g4{
         grid-column: 4; grid-row: 1;
         border: solid 1px white;
       }
-      .g5{
+      #g5{
         grid-column: 1; grid-row: 2;
         border: solid 1px white;
       }
-      .g6{
+      #g6{
         grid-column: 2; grid-row: 2;
         border: solid 1px white;
       }
     
-      .g7{
+      #g7{
         grid-column: 3; grid-row:2 ;
         border: solid 1px white;
       }
-      .g8{
+      #g8{
         grid-column: 4; grid-row: 2;
         border: solid 1px white;
       }
-      .g9{
+      #g9{
         grid-column: 1; grid-row: 3;
         border: solid 1px white;
       }
-      .g10{
+      #g10{
         grid-column: 2; grid-row: 3;
         border: solid 1px white;
       }
-      .g11{
+      #g11{
         grid-column: 3; grid-row: 3;
         border: solid 1px white;
       }
-      .g12{
+      #g12{
         grid-column: 4; grid-row: 3;
         border: solid 1px white;
       }

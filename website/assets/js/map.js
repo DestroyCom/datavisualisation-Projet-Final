@@ -187,14 +187,22 @@ function WicheMapColor(groupe){
     
     };
 }
+
+
+
+var values = window.location.search;
+var urlvalues = new URLSearchParams(values);
+var groupe1 = parseInt(urlvalues.get("groupe1"));
+var groupe2 = parseInt(urlvalues.get("groupe2"));
+
 if (document.getElementById("groupe1")!="undefined")
 {
-    WicheMapColor(1);
-    displayStream(1);
+    WicheMapColor(groupe1);
+    displayStream(groupe1);
 }
 else if(document.getElementById("groupe2")!="undefined"){
-    WicheMapColor(2);
-    displayStream(2);
+    WicheMapColor(groupe2);
+    displayStream(groupe2);
 }
 
 document.getElementById("logobeatles").addEventListener('click', function(){
@@ -204,8 +212,8 @@ document.getElementById("logobeatles").addEventListener('click', function(){
     document.querySelector("#logobeatles").classList.add('select');
     document.querySelector("#logors").classList.remove('select');
     MapReset();
-    WicheMapColor(1);
-    displayStream(1);
+    WicheMapColor(groupe1);
+    displayStream(groupe1);
 
   }
   });
@@ -218,8 +226,8 @@ document.getElementById("logors").addEventListener('click', function(){
     document.querySelector("#logors").classList.add('select');
     document.querySelector("#logobeatles").classList.remove('select');
     MapReset();
-    WicheMapColor(2);
-    displayStream(2);
+    WicheMapColor(groupe2);
+    displayStream(groupe2);
   }
   });
 
