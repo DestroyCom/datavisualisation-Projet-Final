@@ -13,7 +13,6 @@
     foreach ($db as $values) {
         
         $response[] = $values;
-
         
     }
     header('Content-Type: application/json');
