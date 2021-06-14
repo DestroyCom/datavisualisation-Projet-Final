@@ -1,3 +1,5 @@
+@import url('https://fontlibrary.org//face/catv-6x12-9');
+
 body {
     background-color: black;
     overflow: hidden;
@@ -40,6 +42,7 @@ body {
 .name1,
 .name2 {
     color: white;
+    font-family: 'CatV6x129Normal';
 }
 
 .name1 {
@@ -60,12 +63,14 @@ button{
     background-color: rgb(150, 32, 32);
     opacity: 50%;
     color: white;
+    font-family: 'CatV6x129Normal';
 }
 
 
 .title{
     color: white;
     text-align: center;
+    font-family: 'CatV6x129Normal';
 }
 
 
@@ -89,6 +94,8 @@ button{
 .tableau>div>p{
     text-align: center;
     margin-top: 0px;
+    font-family: 'CatV6x129Normal';
+    font-size: 13px;
 }
 
 
