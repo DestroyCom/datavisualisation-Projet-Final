@@ -7,7 +7,7 @@
 - ***FR*** : Le projet est accessible sur :
 - ***EN*** : The project is available at : 
 
-    ***[ROCK BAND VERSUS](http://rock-band.alwaysdata.net/)***
+    ***[ROCK BAND VERSUS - http://rock-band.alwaysdata.net/](http://rock-band.alwaysdata.net/)***
 
 ## D'où viennent les données ? / Where does the data come from?
 ***FR*** : Nos datas sont récupérée sur les sites internet suivant  // ***EN*** : Our datas are based on the following websites :
