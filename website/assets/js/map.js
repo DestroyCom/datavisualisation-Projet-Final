@@ -140,7 +140,7 @@ function ColorMap(json){
 
             }
             else if(parseInt(currentValue["Nombre_Concert"])<(max*0.99)){
-                document.getElementById(currentValue["ISO"]).style.fill="#FB0101";
+                document.getElementById(currentValue["ISO"]).style.fill="red";
 
             }
             else{
