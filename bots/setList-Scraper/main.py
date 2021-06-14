@@ -27,9 +27,17 @@ driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[2]/div/button[2]
 #Create the path & the name of the global csv file
 who = './bots/setList-Scraper/data/' + where + '-SetList.csv'
 
-#Go on the data concert tab
-driver.find_element_by_xpath('/html/body/div[3]/div[3]/div[3]/div[1]/div[1]/div[2]/div/div[2]/ul/li[2]/a').click()
-driver.find_element_by_xpath('/html/body/div[2]/div[3]/div[3]/div/div/div[2]/div/div[2]/div/div[1]/ul/li[6]/a').click()
+try :
+    #Go on the data concert tab
+    driver.find_element_by_xpath('/html/body/div[3]/div[3]/div[3]/div[1]/div[1]/div[2]/div/div[2]/ul/li[2]/a').click()
+    driver.find_element_by_xpath('/html/body/div[2]/div[3]/div[3]/div/div/div[2]/div/div[2]/div/div[1]/ul/li[6]/a').click()
+except Exception as e:
+    print(e)
+    whereTwo = str(input('ERROR ! Enter the Setlist URL of the band whose data you want to retrieve : '))
+    driver.close()
+    driver = webdriver.Firefox()
+    driver.get(whereTwo)
+    driver.find_element_by_xpath('/html/body/div[2]/div[3]/div[3]/div/div/div[2]/div/div[2]/div/div[1]/ul/li[6]/a').click()
 
 #Select all the datas
 nomPays = driver.find_elements_by_css_selector('.songName>a>span')
