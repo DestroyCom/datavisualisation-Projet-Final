@@ -35,7 +35,6 @@ function displayStream(groupeParam) {
             requestSpotify.onload = function () {
                 document.querySelector('.titres').innerHTML = '';
                 for (let i = 0; i < 5; i++) {
-                    //console.log(requestSpotify.responseText)
                     let data = JSON.parse(requestSpotify.responseText);
 
                     var coverURL = '';
@@ -137,7 +136,7 @@ function ColorMap(json) {
 
     json.forEach(function (currentValue, index) {
         try {
-            if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.25) && parseInt(currentValue["Nombre_Concert"]) > 1) {
+            if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.25) && parseInt(currentValue["Nombre_Concert"]) >= 1) {
                 document.getElementById(currentValue["ISO"]).style.fill = "#f0bb00";
 
             } else if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.5)) {
