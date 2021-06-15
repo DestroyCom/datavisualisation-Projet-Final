@@ -51,7 +51,14 @@ function displayStream(groupeParam) {
                     coverRequest.open('GET', requestCoverURL);
                     coverRequest.onload = function () {
                         let dataCover = JSON.parse(coverRequest.responseText);
-                        coverURL = dataCover.album.image[3]['#text'];
+                        try {
+                            coverURL = dataCover.album.image[3]['#text'];
+                        } catch (error) {
+                            coverURL = 'https://i.kym-cdn.com/entries/icons/original/000/036/746/cover1.jpg';
+                        }
+                        if (coverURL === '') {
+                            coverURL = 'https://i.kym-cdn.com/entries/icons/original/000/036/746/cover1.jpg';
+                        }
 
                         let div = document.createElement('div');
                         div.classList.toggle('titre');
@@ -140,10 +147,10 @@ function ColorMap(json) {
 
         }
     });
-    document.getElementById("100").innerHTML=max;
-    document.getElementById("75").innerHTML=parseInt(max*0.75);
-    document.getElementById("50").innerHTML=parseInt(max*0.5);
-    document.getElementById("25").innerHTML=parseInt(max*0.25);
+    document.getElementById("100").innerHTML = max;
+    document.getElementById("75").innerHTML = parseInt(max * 0.75);
+    document.getElementById("50").innerHTML = parseInt(max * 0.5);
+    document.getElementById("25").innerHTML = parseInt(max * 0.25);
     json.forEach(function (currentValue, index) {
         try {
             if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.25) && parseInt(currentValue["Nombre_Concert"]) >= 1) {
