@@ -133,7 +133,10 @@ function ColorMap(json) {
 
         }
     });
-
+    document.getElementById("100").innerHTML=max;
+    document.getElementById("75").innerHTML=parseInt(max*0.75);
+    document.getElementById("50").innerHTML=parseInt(max*0.5);
+    document.getElementById("25").innerHTML=parseInt(max*0.25);
     json.forEach(function (currentValue, index) {
         try {
             if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.25) && parseInt(currentValue["Nombre_Concert"]) >= 1) {
