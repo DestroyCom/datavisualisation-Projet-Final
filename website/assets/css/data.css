@@ -138,4 +138,9 @@ svg {
         width: 15vw;
     }
 
+    .indicateNumber{
+        position: absolute !important;
+        top: 25vh !important;
+        left: 5vw !important;
+    }
 }
