@@ -111,11 +111,12 @@ svg {
     top: 45vh !important;
     left: 65vw !important;
     background-color: transparent !important;
+    font-size: 25px !important;
 }
 
 #legend{
     position: absolute;
-    top: 50vh;
+    top: 44vh;
     left: 15vh;
     background-color: #353131;
     display: grid;
