@@ -113,6 +113,31 @@ svg {
     background-color: transparent !important;
 }
 
+#legend{
+    position: absolute;
+    top: 50vh;
+    left: 15vh;
+    background-color: #353131;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+#legend>img{
+    grid-column: 1;
+    grid-row: 1;
+}
+#legend>div{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #353131;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#legend>div>p{
+    background-color: #353131;
+}
+
 @media only screen and (max-width: 1025px) {
     #PageStream, #PageMap {
         height: 85vh;
