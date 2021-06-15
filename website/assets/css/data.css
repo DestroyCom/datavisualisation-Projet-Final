@@ -100,6 +100,13 @@ svg {
     background-color: #353131;
 }
 
+.indicateNumber{
+    position: absolute !important;
+    top: 45vh !important;
+    left: 65vw !important;
+    background-color: transparent !important;
+}
+
 @media only screen and (max-width: 1025px) {
     #PageStream, #PageMap {
         height: 85vh;

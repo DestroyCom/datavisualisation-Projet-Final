@@ -1,11 +1,15 @@
 var API_KEY = 'd7c19e822e436a0ee056a6a73f71b04d';
+var countryMap = document.querySelectorAll('.st0');
 var requestSpotify = new XMLHttpRequest();
 var requestMonthly = new XMLHttpRequest();
 var requestGroupe = new XMLHttpRequest();
-var zoom=1;
-if (localStorage["Section"]=="Stream"){
-    document.getElementById("stream").style.backgroundColor="#353131";
-    document.getElementById("concert").style.backgroundColor="#8F8F8F";
+var zoom = 1;
+
+var isoAndNmbConcert = {};
+
+if (localStorage["Section"] == "Stream") {
+    document.getElementById("stream").style.backgroundColor = "#353131";
+    document.getElementById("concert").style.backgroundColor = "#8F8F8F";
     document.getElementById("PageStream").classList.remove("hidden");
     document.getElementById("PageMap").classList.add("hidden");
     document.getElementById("Calque_1").classList.add("hidden");
@@ -13,6 +17,7 @@ if (localStorage["Section"]=="Stream"){
     localStorage.removeItem("Section")
 
 }
+
 function displayStream(groupeParam) {
 
     if (groupeParam != null) {
@@ -62,7 +67,7 @@ function displayStream(groupeParam) {
                         div.appendChild(img)
                         div.appendChild(titre)
                         div.appendChild(ecoutes)
-                    
+
                         document.querySelector('.titres').appendChild(div);
                     }
                     coverRequest.send()
@@ -111,82 +116,72 @@ function displayStream(groupeParam) {
 
 }
 
-function ColorMap(json){
-    var max=0
-    
-    
-    json.forEach(function(currentValue,index) {
-        try{
-            if(parseInt(currentValue["Nombre_Concert"])>max){
-                max=parseInt(currentValue["Nombre_Concert"]);
-            }    
-        }
-        catch{
-            
+function ColorMap(json) {
+    var max = 0
+
+    console.log(json)
+
+    json.forEach((item, index) => {
+        isoAndNmbConcert[item['ISO']] = item.Nombre_Concert;
+    })
+
+    json.forEach(function (currentValue, index) {
+        try {
+            if (parseInt(currentValue["Nombre_Concert"]) > max) {
+                max = parseInt(currentValue["Nombre_Concert"]);
+            }
+        } catch {
+
         }
     });
-    
-    json.forEach(function(currentValue,index) {
-        try{
-            if( parseInt(currentValue["Nombre_Concert"])< (max*0.25) &&  parseInt(currentValue["Nombre_Concert"])>1){
-                document.getElementById(currentValue["ISO"]).style.fill="#f0bb00";
 
-            }
-            else if(parseInt(currentValue["Nombre_Concert"])<(max*0.5)){
-                document.getElementById(currentValue["ISO"]).style.fill="#F16E00";
+    json.forEach(function (currentValue, index) {
+        try {
+            if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.25) && parseInt(currentValue["Nombre_Concert"]) > 1) {
+                document.getElementById(currentValue["ISO"]).style.fill = "#f0bb00";
 
-            }
-            else if(parseInt(currentValue["Nombre_Concert"])<(max*0.75)){
-                document.getElementById(currentValue["ISO"]).style.fill="#FB0101";
-                
+            } else if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.5)) {
+                document.getElementById(currentValue["ISO"]).style.fill = "#F16E00";
 
-            }
-            else if(parseInt(currentValue["Nombre_Concert"])<(max*0.99)){
-                document.getElementById(currentValue["ISO"]).style.fill="red";
+            } else if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.75)) {
+                document.getElementById(currentValue["ISO"]).style.fill = "#FB0101";
 
+
+            } else if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.99)) {
+                document.getElementById(currentValue["ISO"]).style.fill = "red";
+
+            } else {
+                document.getElementById(currentValue["ISO"]).style.fill = "#940404";
             }
-            else{
-                document.getElementById(currentValue["ISO"]).style.fill="#940404";
-            }
-            
-        }
-              
-            
-            
-            
-            
-        
-        catch{
+
+        } catch {
             console.log("Color Map Finish")
         }
     });
-    
+
 
 }
 
-function MapReset(){
-    allPath=document.getElementsByClassName("st0");
-    
+function MapReset() {
+    allPath = document.getElementsByClassName("st0");
+
     for (var i = 0; i < allPath.length; i++) {
-        document.getElementById(allPath[i].id).style.fill=""
-      }
+        document.getElementById(allPath[i].id).style.fill = ""
+    }
 }
 
 
 
-
-
-
-function WicheMapColor(groupe){
-    var requestURL = 'assets/js/api/getConcert.php?var1='+groupe;
+function WicheMapColor(groupe) {
+    var requestURL = 'assets/js/api/getConcert.php?var1=' + groupe;
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
     request.send();
-    request.onload = function() {
+    request.onload = function () {
 
         ColorMap(request.response);
-    
+
     };
 }
 
@@ -197,60 +192,75 @@ var urlvalues = new URLSearchParams(values);
 var groupe1 = parseInt(urlvalues.get("groupe1"));
 var groupe2 = parseInt(urlvalues.get("groupe2"));
 
-if (document.getElementById("groupe1")!="undefined")
-{
+if (document.getElementById("groupe1") != "undefined") {
     WicheMapColor(groupe1);
     displayStream(groupe1);
-}
-else if(document.getElementById("groupe2")!="undefined"){
+} else if (document.getElementById("groupe2") != "undefined") {
     WicheMapColor(groupe2);
     displayStream(groupe2);
 }
 
-document.getElementById("logobeatles").addEventListener('click', function(){
-  if (document.getElementById("groupe2")!="undefined")
-  {
-    document.getElementById("groupe2").id="groupe1";
-    document.querySelector("#logobeatles").classList.add('select');
-    document.querySelector("#logors").classList.remove('select');
-    MapReset();
-    WicheMapColor(groupe1);
-    displayStream(groupe1);
+document.getElementById("logobeatles").addEventListener('click', function () {
+    if (document.getElementById("groupe2") != "undefined") {
+        document.getElementById("groupe2").id = "groupe1";
+        document.querySelector("#logobeatles").classList.add('select');
+        document.querySelector("#logors").classList.remove('select');
+        MapReset();
+        WicheMapColor(groupe1);
+        displayStream(groupe1);
 
-  }
-  });
-
-
-document.getElementById("logors").addEventListener('click', function(){
-  if (document.getElementById("groupe1")!="undefined")
-  {
-    document.getElementById("groupe1").id="groupe2";
-    document.querySelector("#logors").classList.add('select');
-    document.querySelector("#logobeatles").classList.remove('select');
-    MapReset();
-    WicheMapColor(groupe2);
-    displayStream(groupe2);
-  }
-  });
+    }
+});
 
 
-document.getElementById("+").addEventListener('click', function(){
-    if (zoom<2){
-    zoom=zoom+0.5
-    document.getElementById("Calque_1").style.transform="scale("+zoom+")";
+document.getElementById("logors").addEventListener('click', function () {
+    if (document.getElementById("groupe1") != "undefined") {
+        document.getElementById("groupe1").id = "groupe2";
+        document.querySelector("#logors").classList.add('select');
+        document.querySelector("#logobeatles").classList.remove('select');
+        MapReset();
+        WicheMapColor(groupe2);
+        displayStream(groupe2);
+    }
+});
+
+
+document.getElementById("+").addEventListener('click', function () {
+    if (zoom < 2) {
+        zoom = zoom + 0.5
+        document.getElementById("Calque_1").style.transform = "scale(" + zoom + ")";
     }
 
 });
 
-document.getElementById("-").addEventListener('click', function(){
-    if (zoom>1){
-    zoom=zoom-0.5
-    document.getElementById("Calque_1").style.transform="scale("+zoom+")";
+document.getElementById("-").addEventListener('click', function () {
+    if (zoom > 1) {
+        zoom = zoom - 0.5
+        document.getElementById("Calque_1").style.transform = "scale(" + zoom + ")";
     }
 
 });
 
-document.getElementById("logovs").addEventListener('click', function(){
-    window.location="indexv2.html"
+document.getElementById("logovs").addEventListener('click', function () {
+    window.location = "indexv2.html"
 
 });
+
+let createDiv = document.createElement('div');
+createDiv.classList.toggle('indicateNumber');
+document.querySelector('#PageMap').appendChild(createDiv);
+countryMap.forEach((item, index) => {
+    countryMap[index].addEventListener('mouseover', function (e) {
+        console.log('yes');
+        console.log(item)
+        let actualCountry = item.id;
+        if (actualCountry in isoAndNmbConcert) {
+            console.log(actualCountry, isoAndNmbConcert[actualCountry]);
+            createDiv.innerHTML =item.id + ' = ' + isoAndNmbConcert[actualCountry];
+        }
+    })
+})
+
+document.querySelector('svg').addEventListener('mouseout', function(e){
+    createDiv.innerHTML = '';
+})
