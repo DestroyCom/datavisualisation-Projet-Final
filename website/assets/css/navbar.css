@@ -1,3 +1,5 @@
+@import url('https://fontlibrary.org/face/press-start-2p');
+
 header {
     width: 100%;
     display: flex;
@@ -6,6 +8,7 @@ header {
     z-index: 5000000000000;
     height: 30vh;
     padding-top: 2%;
+    font-family: 'Press Start 2P';
 }
 
 header>div:first-child>img {
@@ -28,7 +31,7 @@ header>div:last-child>img {
 header>div>div {
     color: white;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 1.2rem;
 }
 
 #logovs {
@@ -80,7 +83,7 @@ header>div>div {
     header>div>div {
         color: white;
         text-align: center;
-        font-size: 2.3rem;
+        font-size: 1.2rem;
     }
 
     #logovs {

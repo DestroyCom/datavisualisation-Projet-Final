@@ -1,8 +1,11 @@
+@import url('https://fontlibrary.org/face/press-start-2p');
+
 body {
     background-color: black;
     overflow: hidden;
     height: 100vh;
     width: 100%;
+    font-family: 'Press Start 2P';
 }
 
 .groupe1,
@@ -55,7 +58,7 @@ body {
 
 .select {
     text-align: center;
-    font-size: 70px;
+    font-size: 35px;
     margin-top: 40px;
 }
 
@@ -68,7 +71,7 @@ body {
     background-color: black;
     opacity: 0.5;
     color: white;
-    font-size: 65px;
+    font-size: 30px;
     margin-right: 40px;
 }
 
@@ -76,7 +79,7 @@ body {
     background-color: black;
     opacity: 0.5;
     color: white;
-    font-size: 65px;
+    font-size: 30px;
     margin-left: 40px;
 }
 
@@ -106,7 +109,7 @@ body {
         height: 60vh;
     }
     .select {
-        font-size: 30px;
+        font-size: 15px;
     }
     .boutons {
         display: flex;
@@ -116,7 +119,7 @@ body {
         background-color: black;
         opacity: 0.5;
         color: white;
-        font-size: 35px;
+        font-size: 20px;
         margin-top: 25px;
         margin-left: 40px;
         
@@ -126,19 +129,19 @@ body {
         background-color: black;
         opacity: 0.5;
         color: white;
-        font-size: 35px;
+        font-size: 20px;
         margin-top: 205px;
         margin-right: 40px;
 
     }
     .name1 {
         margin-left: 295px;
-        font-size: 10px;
+        font-size: 5px;
     }
     
     .name2 {
         margin-left: 135px;
-        font-size: 10px;
+        font-size: 5px;
     }
     
 }
