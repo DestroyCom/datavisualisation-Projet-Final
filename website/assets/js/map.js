@@ -237,7 +237,7 @@ document.getElementById("logors").addEventListener('click', function () {
 
 
 document.getElementById("+").addEventListener('click', function () {
-    if (zoom < 2) {
+    if (zoom < 3) {
         zoom = zoom + 0.5
         document.getElementById("Calque_1").style.transform = "scale(" + zoom + ")";
     }
