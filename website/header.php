@@ -14,14 +14,25 @@
         $nomGroupe2 = $stmt2 -> fetch(PDO::FETCH_ASSOC);
     ?>
     <div>
-        <img id="logobeatles" src=<?php echo "assets/img/" . strval($idGroupe1). "-groupe.png";?> class="select">
+        <img id="logobeatles" src=<?php if($idGroupe1 < 13){
+            echo "assets/img/" . strval($idGroupe1). "-groupe.png";
+            }
+        else{
+            echo "assets/img/" . strval($idGroupe1). "-groupe.gif";
+            }?> class="select">
         <div><?php echo $nomGroupe1['Nom_Groupe'] ?></div>
     </div>
 
     <img id="logovs" src="assets/img/vslogo.png" alt="logovs">
 
     <div>
-        <img id="logors" src=<?php echo "assets/img/" . strval($idGroupe2). "-groupe.png";?>>
+        <img id="logors" src=<?php 
+        if($idGroupe2 < 13){
+            echo "assets/img/" . strval($idGroupe2). "-groupe.png";
+            }
+        else{
+            echo "assets/img/" . strval($idGroupe2). "-groupe.gif";
+            }?>>
         <div><?php echo $nomGroupe2['Nom_Groupe'] ?></div>
     </div>
 </header>

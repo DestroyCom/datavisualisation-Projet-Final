@@ -1,6 +1,8 @@
 <?php 
     include_once('assets/credentials-GITIGNORE/credentials.php');
+    include_once('secure.php')
 ?>
+
 <!DOCTYPE html>
 <html>
 
