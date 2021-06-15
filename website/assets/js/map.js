@@ -120,8 +120,6 @@ function displayStream(groupeParam) {
 function ColorMap(json) {
     var max = 0
 
-    console.log(json)
-
     json.forEach((item, index) => {
         isoAndNmbConcert[item['ISO']] = item.Nombre_Concert;
     })
@@ -252,16 +250,13 @@ createDiv.classList.toggle('indicateNumber');
 document.querySelector('#PageMap').appendChild(createDiv);
 countryMap.forEach((item, index) => {
     countryMap[index].addEventListener('mouseover', function (e) {
-        console.log('yes');
-        console.log(item)
         let actualCountry = item.id;
         if (actualCountry in isoAndNmbConcert) {
-            console.log(actualCountry, isoAndNmbConcert[actualCountry]);
-            createDiv.innerHTML =item.id + ' = ' + isoAndNmbConcert[actualCountry];
+            createDiv.innerHTML = item.id + ' = ' + isoAndNmbConcert[actualCountry];
         }
     })
 })
 
-document.querySelector('svg').addEventListener('mouseout', function(e){
+document.querySelector('svg').addEventListener('mouseout', function (e) {
     createDiv.innerHTML = '';
 })
