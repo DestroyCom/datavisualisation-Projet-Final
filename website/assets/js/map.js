@@ -4,6 +4,8 @@ var requestSpotify = new XMLHttpRequest();
 var requestMonthly = new XMLHttpRequest();
 var requestGroupe = new XMLHttpRequest();
 var zoom = 1;
+var monthlyListeners = '';
+var displayMonthlyListeners = document.createElement('h2');
 
 var isoAndNmbConcert = {};
 
@@ -70,10 +72,15 @@ function displayStream(groupeParam) {
                         div.appendChild(ecoutes)
 
                         document.querySelector('.titres').appendChild(div);
+
+                        monthlyListeners = "Nombres d'écoutes mensuelles : " + data.data.monthly_listeners.listener_count;
+                        displayMonthlyListeners.innerHTML = monthlyListeners.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
                     }
                     coverRequest.send()
 
                 }
+                console.log(monthlyListeners);
+                document.querySelector('.group').appendChild(displayMonthlyListeners);
             }
             requestSpotify.send();
         }
@@ -133,7 +140,10 @@ function ColorMap(json) {
 
         }
     });
-
+    document.getElementById("100").innerHTML=max;
+    document.getElementById("75").innerHTML=parseInt(max*0.75);
+    document.getElementById("50").innerHTML=parseInt(max*0.5);
+    document.getElementById("25").innerHTML=parseInt(max*0.25);
     json.forEach(function (currentValue, index) {
         try {
             if (parseInt(currentValue["Nombre_Concert"]) < (max * 0.25) && parseInt(currentValue["Nombre_Concert"]) >= 1) {
