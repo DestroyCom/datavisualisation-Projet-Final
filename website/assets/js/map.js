@@ -43,8 +43,9 @@ function displayStream(groupeParam) {
                     artistName = artistName.replace(/\s/g, '+');
 
                     let coverRequest = new XMLHttpRequest;
-                    let requestCoverURL = 'http://ws.audioscrobbler.com' + '/2.0/?method=album.getinfo&api_key=' + API_KEY + '&artist=' + artistName + '&album=' + data.data.top_tracks.tracks[i].release.name + '&format=json';
-
+                    let requestCoverURL = 'https://ws.audioscrobbler.com' + '/2.0/?method=album.getinfo&api_key=' + API_KEY + '&artist=' + artistName + '&album=' + data.data.top_tracks.tracks[i].release.name + '&format=json'
+                    //'assets/js/api/getCover.php?API_KEY=' + API_KEY + '&artistName=' + artistName + '&albumName=' + data.data.top_tracks.tracks[i].release.name ; 
+                    //'http://ws.audioscrobbler.com' + '/2.0/?method=album.getinfo&api_key=' + API_KEY + '&artist=' + artistName + '&album=' + data.data.top_tracks.tracks[i].release.name + '&format=json'
                     coverRequest.open('GET', requestCoverURL);
                     coverRequest.onload = function () {
                         let dataCover = JSON.parse(coverRequest.responseText);
