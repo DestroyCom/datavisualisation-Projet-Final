@@ -35,6 +35,7 @@ function displayStream(groupeParam) {
             requestSpotify.onload = function () {
                 document.querySelector('.titres').innerHTML = '';
                 for (let i = 0; i < 5; i++) {
+                    //console.log(requestSpotify.responseText)
                     let data = JSON.parse(requestSpotify.responseText);
 
                     var coverURL = '';
