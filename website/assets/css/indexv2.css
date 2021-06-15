@@ -7,7 +7,7 @@ body {
     width: 100%;
 }
 
-.groupe2 {
+#groupe2 {
     border: 2px solid gold;
     width: 250px;
     height: 250px;
@@ -15,7 +15,7 @@ body {
     background: radial-gradient(#C79923, #000000);
 }
 
-.groupe1{
+#groupe1{
     border: 2px solid rgb(255, 0, 0);
     width: 250px;
     height: 250px;
@@ -23,11 +23,11 @@ body {
     background: radial-gradient(#c72323, #000000);
 }
 
-.groupe1 {
+#groupe1 {
     margin-right: 100px;
 }
 
-.groupe2 {
+#groupe2 {
     margin-left: 100px;
 }
 
@@ -160,7 +160,7 @@ button{
     body{
         margin-top: 90px;
     }
-    .groupe1,.groupe2 {
+    #groupe1,#groupe2 {
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -170,11 +170,11 @@ button{
         height: 50px;
         margin: -90px;
     }
-    .groupe1 {
+    #groupe1 {
         margin-left: 250px;
     }
     
-    .groupe2 {
+    #groupe2 {
         margin-right: 250px;
     }
     
