@@ -38,6 +38,7 @@ h2{
     max-height: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 12px;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -68,7 +69,6 @@ h2{
         max-height: 100px;
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 25px;
     }
 
 }
