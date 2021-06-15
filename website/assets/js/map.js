@@ -56,7 +56,8 @@ function displayStream(groupeParam) {
                         titre.innerHTML = data.data.top_tracks.tracks[i].name;
 
                         let ecoutes = document.createElement('p');
-                        ecoutes.innerHTML = data.data.top_tracks.tracks[i].playcount + ' écoutes';
+                        let tmpDataEcoute = data.data.top_tracks.tracks[i].playcount;
+                        ecoutes.innerHTML = tmpDataEcoute.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",") + ' écoutes';
 
                         div.appendChild(img)
                         div.appendChild(titre)
@@ -91,7 +92,8 @@ function displayStream(groupeParam) {
                     ville.innerHTML = dataMonthly[i].Ville_Pays_Ecoutes;
 
                     let nombres = document.createElement('p');
-                    nombres.innerHTML = dataMonthly[i].Nombres_Ecoutes;
+                    let tmpNombre = dataMonthly[i].Nombres_Ecoutes;
+                    nombres.innerHTML = tmpNombre.replace('listeners', 'auditeurs');
 
                     div.appendChild(img)
                     div.appendChild(ville)
