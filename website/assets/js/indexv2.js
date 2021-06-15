@@ -34,15 +34,37 @@ document.getElementById("go").addEventListener("click",function(){
 })
 
 function ImageVsVerification(Unitem,Untableau){
+    
+    
     if (Untableau.length==0){
         document.getElementById("groupe1").setAttribute("src","assets/img/"+Unitem.id.replace("g","")+"-groupe.png");
+        SetGroupeName(Unitem.id.replace("g",""),"name1");
     }
     else if (Untableau.length==1){
         document.getElementById("groupe2").setAttribute("src","assets/img/"+Unitem.id.replace("g","")+"-groupe.png");
+        SetGroupeName(Unitem.id.replace("g",""),"name2");
+        document.getElementById("go").style.opacity="1";
     }
     else if(Untableau.length==2){
         document.getElementById("groupe1").setAttribute("src","assets/img/"+Untableau[0].id.replace("g","")+"-groupe.png");
+        SetGroupeName(Untableau[0].id.replace("g",""),"name1");
+
         document.getElementById("groupe2").setAttribute("src","assets/img/"+Unitem.id.replace("g","")+"-groupe.png");
+        SetGroupeName(Unitem.id.replace("g",""),"name2");
     }
     
+}
+
+
+function SetGroupeName(id,groupe){
+    var requestURL = 'assets/js/api/getGroupeName.php?var1='+id;
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+        
+        document.getElementById(groupe).innerHTML = request.response[0]["Nom_Groupe"];
+    
+    };
 }
