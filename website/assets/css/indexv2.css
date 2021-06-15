@@ -66,6 +66,7 @@ button{
     opacity: 50%;
     color: white;
     font-family: 'CatV6x129Normal';
+    cursor: pointer;
 }
 
 
@@ -85,6 +86,7 @@ button{
   justify-content: center;
   color: white;
   margin: auto;
+  cursor: pointer;
 }
 .tableau>div>img{
     width: 100%;
