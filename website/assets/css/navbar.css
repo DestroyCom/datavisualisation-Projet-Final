@@ -14,6 +14,7 @@ header>div:first-child>img {
     width: 300px;
     border: 1px solid rgb(172, 172, 158);
     object-fit: cover;
+    cursor: pointer;
 }
 
 header>div:last-child>img {
@@ -21,6 +22,7 @@ header>div:last-child>img {
     width: 300px;
     border: 1px solid rgb(172, 172, 158);
     object-fit: cover;
+    cursor: pointer;
 }
 
 header>div>div {
@@ -29,14 +31,15 @@ header>div>div {
     font-size: 2.3rem;
 }
 
-.logovs {
+#logovs {
     height: 70%;
     margin-top: 3vh;
+    cursor: pointer;
 }
 
 .select {
-    background: radial-gradient(#C79923, #000000);
-    border: 1px solid yellow !important;
+    background: radial-gradient(red, #000000);
+    border: 1px solid red !important;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -80,7 +83,7 @@ header>div>div {
         font-size: 2.3rem;
     }
 
-    .logovs {
+    #logovs {
         margin-top: 50px;
         max-height: 300px;
         height: 45%;
