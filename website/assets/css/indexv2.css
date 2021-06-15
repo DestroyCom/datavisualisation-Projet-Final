@@ -12,7 +12,7 @@ body {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    background: radial-gradient(#c72323, #000000);
+    background: radial-gradient(red, #000000);
 }
 
 #groupe1{
@@ -47,12 +47,12 @@ body {
 
 #name1 {
     margin-left: 85px;
-    color: #c72323;
+    color: red;
 }
 
 #name2 {
     margin-left: 160px;
-    color: #c72323;
+    color: red;
 }
 
 .button{
