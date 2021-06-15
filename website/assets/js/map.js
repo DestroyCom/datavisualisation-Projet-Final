@@ -205,6 +205,7 @@ document.getElementById("logobeatles").addEventListener('click', function () {
         document.querySelector("#logobeatles").classList.add('select');
         document.querySelector("#logors").classList.remove('select');
         MapReset();
+        isoAndNmbConcert = {};
         WicheMapColor(groupe1);
         displayStream(groupe1);
 
@@ -218,6 +219,7 @@ document.getElementById("logors").addEventListener('click', function () {
         document.querySelector("#logors").classList.add('select');
         document.querySelector("#logobeatles").classList.remove('select');
         MapReset();
+        isoAndNmbConcert = {};
         WicheMapColor(groupe2);
         displayStream(groupe2);
     }
