@@ -28,10 +28,24 @@
             $stmt = $pdo->prepare($query3);
             $stmt->execute(array(':grp1'=>$groupe1["Nom_Groupe"],':grp2'=>$groupe2["Nom_Groupe"]));
             $vote1 = $stmt -> fetch(PDO::FETCH_ASSOC);
+            if($vote1 == false)
+            {
+                $query3 = "SELECT versus_value_group1 FROM vote WHERE versus_group1 = :grp2 AND versus_group2 = :grp1;";
+                $stmt = $pdo->prepare($query3);
+                $stmt->execute(array(':grp1'=>$groupe1["Nom_Groupe"],':grp2'=>$groupe2["Nom_Groupe"]));
+                $vote1 = $stmt -> fetch(PDO::FETCH_ASSOC);
+            }
 
             $stmt = $pdo->prepare($query4);
             $stmt->execute(array(':grp1'=>$groupe1["Nom_Groupe"],':grp2'=>$groupe2["Nom_Groupe"]));
             $vote2 = $stmt -> fetch(PDO::FETCH_ASSOC);
+            if($vote2 == false)
+            {
+                $query4 = "SELECT versus_value_group2 FROM vote WHERE versus_group1 = :grp2 AND versus_group2 = :grp1;";
+                $stmt = $pdo->prepare($query4);
+                $stmt->execute(array(':grp1'=>$groupe1["Nom_Groupe"],':grp2'=>$groupe2["Nom_Groupe"]));
+                $vote2 = $stmt -> fetch(PDO::FETCH_ASSOC);
+            }
 
         ?>
         <link href="assets/css/vote.css" rel="stylesheet">
