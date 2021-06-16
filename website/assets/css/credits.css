@@ -2,7 +2,8 @@
 
 body {
     background-color: black;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     height: 100vh;
     width: 100%;
     font-family: 'Press Start 2P';
@@ -44,7 +45,7 @@ body {
     margin-bottom: -30px;
 }
 
-.fleche{
+.fleche, .fleche2{
     margin-top: -100px;
     cursor: pointer;
     width: 55px;
