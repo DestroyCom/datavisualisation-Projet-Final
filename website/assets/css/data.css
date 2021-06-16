@@ -152,7 +152,7 @@ svg {
 
 .poll{
     position: absolute;
-    top: 90vh;
+    top: 80vh;
     left: 80vw;
     background-color: grey;
     padding: 10px;
@@ -215,7 +215,7 @@ svg {
     }
 
     .poll{
-        top: 85vh;
+        top: 75vh;
         left: 75vw;
         font-size: 20px;
     }
