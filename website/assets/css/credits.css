@@ -56,17 +56,27 @@ body {
         display: grid; 
         grid-template-columns: 1fr 1fr; 
         grid-template-rows: 1fr 1fr 1fr; 
-        gap: 10px 10px; 
+        gap: 2px 1px; 
         grid-template-areas: 
           ". ."
           ". ."
           ". ."; 
+        font-size: 10px;
+        width: 450px;
       }
 
+    .title{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
 
+    .container> div{
+        margin-bottom: 33px;
+    }
 
-
-
+    #p2{
+        margin-top: -7px;
+    }
 
 
 
