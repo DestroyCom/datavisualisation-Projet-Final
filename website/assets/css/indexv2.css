@@ -1,8 +1,6 @@
 @import url('https://fontlibrary.org/face/press-start-2p');
 
 body {
-
-
   overflow: hidden;
   height: 100vh;
   width: 100%;
@@ -14,6 +12,7 @@ html{
   background-image: url("../img/background.svg");
 }
 #groupe2 {
+  padding:0 auto;
   border: 2px solid rgb(255, 0, 0);
   width: 175px;
   height: 175px;
@@ -29,11 +28,18 @@ html{
   background: radial-gradient(#c72323, #000000);
 }
 
+.fond{
+  width:300px;
+}
+.fond img{
+  margin:0 62px;
+}
+
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -66,7 +72,8 @@ html{
 
 button {
   font-size: 45px;
-  border-radius: 5%;
+  padding: 10px;
+  padding-bottom: 5px;
   background-color: rgb(150, 32, 32);
   background-image: url("../img/fire.gif");
   opacity: 50%;
@@ -358,6 +365,13 @@ button {
     margin: -90px;
   }
 
+  .fond{
+    width:300px;
+  }
+  .fond img{
+    margin-left: 96px;
+  }
+
   .creditEtSources {
     position: absolute;
     top: 2vh;
@@ -369,7 +383,7 @@ button {
     display: grid; 
     grid-template-columns: repeat(2,150px);
     grid-template-rows: repeat(6,1fr);
-    margin: auto;
+    margin-left: 75px;
   }
 
   #g1 {
