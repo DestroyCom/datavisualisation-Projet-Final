@@ -19,6 +19,7 @@ html{
 .title{
     text-align: center;
     font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .container {
@@ -33,7 +34,7 @@ html{
       width: 100%;
       margin-left: 50px;
       margin-top: 30px;
-      
+      margin-bottom: 8%;
   }
 
   .container>div>img{
@@ -52,7 +53,6 @@ html{
 }
 
 .fleche, .fleche2{
-    margin-top: -100px;
     cursor: pointer;
     width: 55px;
 }
@@ -113,7 +113,7 @@ ul{
 }
 
 h2{
-    margin: 2%;
+    margin: 5%;
 }
 
 
