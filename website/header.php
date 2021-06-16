@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="assets/css/navbar.css">
-<div class="fleche"><a href="http://rock/website/"><img src="assets/img/fleche.png" style="width: 50px;height: 50px; position : absolute"></a></div>
+<div class="fleche"><a href="index.html"><img src="assets/img/fleche.png" style="width: 50px;height: 50px; position : absolute"></a></div>
 <?php include_once('assets/credentials-GITIGNORE/credentials.php'); ?>
 <header>
     <?php

@@ -2,7 +2,7 @@
 
 body {
     background-color: black;
-    overflow: hidden;
+    overflow: auto;
     height: 100vh;
     width: 100%;
     font-family: 'Press Start 2P';
@@ -46,8 +46,69 @@ body {
 
 .fleche{
     margin-top: -100px;
-    
+    cursor: pointer;
+    width: 55px;
 }
+
+.hidden{
+    display: none;
+}
+
+.buttonMove, .buttonMove2{
+    cursor: pointer;
+}
+
+#contenu2{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 25px;
+}
+
+.container a{
+    color: red;
+    transition: opacity;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.container a:hover{
+    opacity: 0.5;
+}
+
+.container2 a{
+    color: red;
+    transition: opacity;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.container2 a:hover{
+    opacity: 0.5;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.buttonMove, .buttonMove2{
+    position: absolute;
+    top: 1vh;
+    left: 90vw;
+    color: red;
+}
+.buttonMove:hover, .buttonMove2:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+h2{
+    margin: 2%;
+}
+
 
 
 @media screen and (max-width: 1025px) {
@@ -67,7 +128,7 @@ body {
 
     .title{
         font-size: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 75px;
     }
 
     .container> div{
@@ -77,8 +138,20 @@ body {
     #p2{
         margin-top: -7px;
     }
+    .container2{
+        margin-left: 15vw;
+    }
 
+    ul{
+        margin-left: -15vw;
+    }
 
+    .buttonMove, .buttonMove2{
+        position: absolute;
+        top: 1vh;
+        left: 80vw;
+        color: red;
+    }
 
 
 }
