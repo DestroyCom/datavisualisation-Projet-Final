@@ -22,7 +22,6 @@
         <section>
             <div id="concert">Concert</div>
             <div id="stream">Stream</div>
-
         </section>
 
         <section id="PageMap">
@@ -48,6 +47,8 @@
         <section id="PageStream" class="hidden">
             <?php include_once('stream.php'); ?>
         </section>
+
+        <div class="poll">JE VOTE !</div>
     </main>
 
 </body>
