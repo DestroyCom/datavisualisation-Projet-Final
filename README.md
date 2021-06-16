@@ -41,3 +41,6 @@
 | Azevedo Da Silva Antoine 	|   antoine.azevedo-da-silva@hetic.net  	|      [HERE](https://www.linkedin.com/in/antoine-ads/) |  [HERE](https://github.com/DestroyCom) 	|        [HERE](https://destroykeaum.alwaysdata.net/)   	|
 | Buisson Thomas           	|   thomas.buisson@hetic.net	|     [HERE](https://www.linkedin.com/in/buissonthomas64/)   | [HERE](https://github.com/ThomAzgo) 	|           	|
 | Roucourt Olivier         	|    olivier.roucourt@hetic.net  	|     [HERE](https://www.linkedin.com/in/olivier-roucourt-48a1421b9/)   |  [HERE](https://github.com/deyja8)	|           	|
+
+
+### V2
