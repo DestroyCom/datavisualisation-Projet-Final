@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/data.css">
     <link rel="stylesheet" href="assets/css/stream.css">
     <link rel="stylesheet" href="assets/css/global.css">
+   
 </head>
 
 <body>
@@ -34,14 +35,13 @@
 
             <section id="legend">
                 <img src="assets/img/mapLegend.png" alt="">
-                <div>     
+                <div>
                     <p id="100">100</p>
                     <p id="75">75</p>
                     <p id="50">50</p>
                     <p id="25">25</p>
                     <p>0</p>
                 </div>
-                
             </section>
         </section>
 

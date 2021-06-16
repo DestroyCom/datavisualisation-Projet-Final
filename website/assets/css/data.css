@@ -118,10 +118,10 @@ svg {
     position: absolute;
     top: 44vh;
     left: 15vh;
-    background-color: #353131;
+    background-color: transparent;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 #legend>img{
     grid-column: 1;
@@ -130,16 +130,22 @@ svg {
 #legend>div{
     grid-column: 2;
     grid-row: 1;
-    background-color: #353131;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 #legend>div>p{
-    background-color: #353131;
+    background-color: transparent;
 }
 
+.fleche{}
+
 @media only screen and (max-width: 1025px) {
+    #legend{
+        top: 55vh;
+        left: 5vh;
+    }
     #PageStream, #PageMap {
         height: 85vh;
     }

@@ -1,6 +1,6 @@
 # Rock Band Versus
 ### PAR L'EQUIPE 13
-- ***FR*** : Un site de datavisualisation mettant en confrontations diverse donnée liées a certains groupes de rock.
+- ***FR*** : Un site de datavisualisation mettant en confrontations diverses données liées à certains groupes de rock.
 - ***EN*** : A datavisualization website showing various datas related to some rock bands.
 
 ## Voir le projet : / See the project :
@@ -10,7 +10,7 @@
     ***[ROCK BAND VERSUS - http://rock-band.alwaysdata.net/](http://rock-band.alwaysdata.net/)***
 
 ## D'où viennent les données ? / Where does the data come from?
-***FR*** : Nos datas sont récupérée sur les sites internet suivant  // ***EN*** : Our datas are based on the following websites :
+***FR*** : Nos datas sont récupérées sur les sites internet suivant  // ***EN*** : Our datas are based on the following websites :
 * [SETLIST.fm](https://www.setlist.fm/) (python scraper)
 * Spotify via :
   - [sp-playcount-librespot](https://github.com/evilarceus/sp-playcount-librespot) (API)
@@ -18,7 +18,7 @@
 - [last.fm](https://www.last.fm/) (API)
 
 ## Qui sommes nous ? / Who are we ?
-- ***FR*** :  Rock Band Versus est née suite au projet de fin de première année du cursus bachelor développeur web à [HETIC](https://www.hetic.net/), le projet à été menée par six étudiants en 25 jours.
+- ***FR*** :  Rock Band Versus est née suite au projet de fin de première année du cursus bachelor développeur web à [HETIC](https://www.hetic.net/), le projet à été mené par six étudiants en 25 jours.
 - ***EN*** : Rock Band Versus was born due to the last project of the first year of the Web Developer course at [HETIC](https://www.hetic.net/), the project was run by six students in 25 days.
 	### L'Équipe 13 : / The 13th Team :
 	- Albuquerque Adrien
