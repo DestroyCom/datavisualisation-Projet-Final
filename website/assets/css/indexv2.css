@@ -24,18 +24,19 @@ body {
     background: radial-gradient(#c72323, #000000);
 }
 
-#groupe1 {
+/* #groupe1 {
     margin-right: 100px;
 }
 
 #groupe2 {
     margin-left: 100px;
-}
+} */
 
 .header {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     margin-left: auto;
     margin-right: auto;
 }
@@ -172,13 +173,13 @@ button{
         height: 50px;
         margin: -90px;
     }
-    #groupe1 {
+    /* #groupe1 {
         margin-left: 250px;
     }
     
     #groupe2 {
         margin-right: 250px;
-    }
+    } */
     
     #name1 {
         
