@@ -34,9 +34,9 @@ body {
     margin-right: 50px;
 }
 
-.header>.logovs {
+.logovs {
   width: 150px;
-  
+  z-index: 1000;
 }
 
 #name1,
@@ -218,8 +218,9 @@ button{
   }
 
   .logovs {
-    width: 50px;
-    height: 50px;
+    
+    height: 80px;
+    width: 80px;
     margin: -90px;
   }
 
@@ -352,6 +353,11 @@ button{
   *{
     overflow: visible;
   }
+  .logovs {
+    height: 80px;
+    width: 80px;
+    margin: -90px;
+}
   .tableau {
     display: grid; 
     grid-template-columns: repeat(2,1fr);
