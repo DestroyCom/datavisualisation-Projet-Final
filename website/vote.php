@@ -1,3 +1,5 @@
+<?php include_once('secure.php');
+?>
 <!DOCTYPE html>
 <html>
 
@@ -50,7 +52,6 @@
 
         ?>
     <link href="assets/css/vote.css" rel="stylesheet">
-    <script type="text/javascript" src="assets/js/vote.js"></script>
 </head>
 
 <body>
@@ -82,6 +83,7 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="assets/js/vote.js"></script>
 </body>
 
 </html>
