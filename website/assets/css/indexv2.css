@@ -95,8 +95,8 @@ button {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 800px;
-  height: 100px;  
+  max-width: 800px;
+  max-height: 100px;  
   color: white;
   margin: auto;
   cursor: pointer;
@@ -250,9 +250,7 @@ button {
     
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 470px;
-    height: 30px;
-    
+
     color: white;
 
   }

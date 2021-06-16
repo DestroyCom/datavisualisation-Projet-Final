@@ -11,13 +11,22 @@ tableau.forEach(function(item,index){
     item.addEventListener("click",function(){
         
         if (tabSelect.length<2){
+
+            if(tabSelect.includes(item)){
+                return;
+            }
             ImageVsVerification(item,tabSelect)
             item.style.backgroundColor="red";
             tabSelect.push(item);
+
+            
             
 
         }
-        else if(tabSelect.length=2){
+        else if(tabSelect.length==2){
+            if(tabSelect.includes(item)){
+                return;
+            }
             tabSelect[0].style.backgroundColor="#000000";
             tabSelect[0]=tabSelect[1];
             tabSelect[1]=item;
@@ -40,14 +49,18 @@ function ImageVsVerification(Unitem,Untableau){
         document.getElementById("groupe1").setAttribute("src","assets/img/"+Unitem.id.replace("g","")+"-groupe.png");
         SetGroupeName(Unitem.id.replace("g",""),"name1");
     }
-    else if (Untableau.length==1){
+    if (Untableau.length==1){
+
         document.getElementById("groupe2").setAttribute("src","assets/img/"+Unitem.id.replace("g","")+"-groupe.png");
         SetGroupeName(Unitem.id.replace("g",""),"name2");
         document.getElementById("go").style.opacity="1";
         document.getElementById("button").classList.remove("hidden");
         document.getElementById("vs").style.backgroundImage=' url("assets/img/fire.gif")';
+
+        
     }
     else if(Untableau.length==2){
+        console.log(Untableau)
         document.getElementById("groupe1").setAttribute("src","assets/img/"+Untableau[0].id.replace("g","")+"-groupe.png");
         SetGroupeName(Untableau[0].id.replace("g",""),"name1");
 
