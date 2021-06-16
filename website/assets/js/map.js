@@ -279,3 +279,7 @@ countryMap.forEach((item, index) => {
 document.querySelector('svg').addEventListener('mouseout', function (e) {
     createDiv.innerHTML = '';
 })
+
+document.querySelector('.creditEtSources').addEventListener('click', function(e){
+    window.location = 'credits.html';
+})

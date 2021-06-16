@@ -25,7 +25,7 @@
     </div>
 
     <img id="logovs" src="assets/img/vslogo.png" alt="logovs">
-
+    <img src="assets/img/question-circle-solid.svg" class="creditEtSources">
     <div>
         <img id="logors" src=<?php 
         if($idGroupe2 < 13){

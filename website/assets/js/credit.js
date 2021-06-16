@@ -10,3 +10,7 @@ document.querySelector('.buttonMove2').addEventListener('click', function(e){
 document.querySelector('.fleche').addEventListener('click', function(e){
     window.location = 'index.html';
 })
+
+document.querySelector('.fleche2').addEventListener('click', function(e){
+    window.location = 'index.html';
+})

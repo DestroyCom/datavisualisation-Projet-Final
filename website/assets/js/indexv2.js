@@ -70,3 +70,7 @@ function SetGroupeName(id,groupe){
     
     };
 }
+
+document.querySelector('.creditEtSources').addEventListener('click', function(e){
+    window.location = 'credits.html';
+})

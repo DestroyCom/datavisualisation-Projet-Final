@@ -46,6 +46,24 @@ header>div>div {
     border: 5px solid red !important;
 }
 
+.creditEtSources{
+    position: absolute;
+    top: 5vh;
+    left: 95vw;
+    color: white;
+    width: 2%;
+    filter: invert();
+    background-color: transparent;
+    cursor: pointer;
+    transition: opacity;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.05s;
+}
+.creditEtSources:hover{
+    opacity: 0.3;
+}
+
 @media only screen and (max-width: 1025px) {
     header {
         margin-top: 5%;
@@ -92,6 +110,13 @@ header>div>div {
         max-height: 300px;
         height: 45%;
         width: 20%;
+    }
+
+    .creditEtSources{
+        position: absolute;
+        top: 2vh;
+        left: 93vw;
+        width: 5%;
     }
 
 }
