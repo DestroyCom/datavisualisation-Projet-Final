@@ -43,7 +43,7 @@ header>div>div {
 
 .select {
     background: radial-gradient(red, #000000);
-    border: 1px solid red !important;
+    border: 5px solid red !important;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -70,7 +70,7 @@ header>div>div {
     }
 
     .select {
-        border: 5px solid yellow !important;
+        border: 5px solid red !important;
     }
 
     header>div:first-child {
