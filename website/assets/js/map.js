@@ -283,3 +283,8 @@ document.querySelector('svg').addEventListener('mouseout', function (e) {
 document.querySelector('.creditEtSources').addEventListener('click', function(e){
     window.location = 'credits.html';
 })
+
+document.querySelector('.poll').addEventListener('click', function(e){
+    let urlVote = 'vote.php?groupe1='+ groupe1 + '&groupe2=' + groupe2;
+    window.location = urlVote;
+})

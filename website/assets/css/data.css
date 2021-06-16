@@ -16,8 +16,6 @@ main>section:first-child {
     display: flex;
     flex-direction: row;
     max-height: 7vh;
-    /* position: relative;
-    left: 25%; */
     align-self: center;
 }
 
@@ -194,6 +192,12 @@ svg {
         position: absolute !important;
         top: 25vh !important;
         left: 5vw !important;
+    }
+
+    .poll{
+        top: 90vh;
+        left: 40vw;
+        font-size: 20px;
     }
 }
 
