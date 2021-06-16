@@ -140,6 +140,23 @@ svg {
     background-color: transparent;
 }
 
+.poll{
+    position: absolute;
+    top: 90vh;
+    left: 85vw;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 25px;
+    transition: opacity;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.05s;
+    cursor: pointer;
+}
+.poll:hover{
+    opacity: 0.5;
+}
+
 
 @media only screen and (max-width: 1025px) {
     #legend{
@@ -180,5 +197,11 @@ svg {
         position: absolute !important;
         top: 25vh !important;
         left: 5vw !important;
+    }
+
+    .poll{
+        top: 90vh;
+        left: 40vw;
+        font-size: 20px;
     }
 }

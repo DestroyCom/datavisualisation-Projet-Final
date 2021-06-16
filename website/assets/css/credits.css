@@ -1,6 +1,8 @@
 @import url('https://fontlibrary.org/face/press-start-2p');
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: black;
     overflow-y: auto;
     overflow-x: hidden;
@@ -124,7 +126,8 @@ h2{
           ". ."
           ". ."; 
         font-size: 10px;
-        width: 450px;
+        width: 90%;
+        margin: 3%;
       }
 
     .title{
@@ -140,7 +143,14 @@ h2{
         margin-top: -7px;
     }
     .container2{
-        margin-left: 15vw;
+        margin-left: 5vw;
+        width: 80vw;
+    }
+    .container2 p{
+        font-size: 12px;
+    }
+    .container2 ul{
+        font-size: 12px;
     }
 
     ul{
@@ -149,9 +159,13 @@ h2{
 
     .buttonMove, .buttonMove2{
         position: absolute;
-        top: 1vh;
-        left: 80vw;
+        top: 5vh;
+        left: 59vw;
         color: red;
+    }
+
+    .container>div p{
+        max-width: 100px;
     }
 
 
