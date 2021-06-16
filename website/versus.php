@@ -99,7 +99,7 @@ if (isset($idValue) AND isset($grpValue))
         case 56:
             if($checker['Nom_Groupe'] == "Queen"){
                 $stmt1 = $pdo->prepare($add_value1);
-                $stmt1->execute(":idValue"=>$idValue);
+                $stmt1->execute(array(":idValue"=>$idValue));
             }else {
                 $stmt1 = $pdo->prepare($add_value2);
                 $stmt1->execute(array(":idValue"=>$idValue));
