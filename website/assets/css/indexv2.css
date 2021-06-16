@@ -1,21 +1,19 @@
 @import url('https://fontlibrary.org/face/press-start-2p');
 
-html{
-  margin: 0;
-  padding: 0;
-}
-
 body {
   height: 100vh;
   width: 100%;
   font-family: 'Press Start 2P';
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 html{
   background-color: black;
   background-image: url("../img/background.svg");
+  margin: 0;
+  padding: 0;
 }
 #groupe2 {
   padding:0 auto;
@@ -48,6 +46,7 @@ html{
   justify-content: space-evenly;
   margin-left: 50px;
   margin-right: 50px;
+  overflow-x: hidden;
 }
 
 .logovs {
@@ -104,7 +103,7 @@ button {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  max-width: 800px;
+  max-width: 80vw;
   max-height: 100px;  
   color: white;
   margin: auto;
@@ -123,7 +122,8 @@ button {
   text-align: center;
   margin-top: 0px;
   font-family: 'Press Start 2P';
-  font-size: 7px;
+  font-size: 14px;
+  padding: 5px;
 }
 
 .tableau>div:hover {
@@ -391,7 +391,7 @@ button {
   .creditEtSources {
     position: absolute;
     top: 2vh;
-    left: 93vw;
+    left: 90vw;
     width: 5%;
   }
 

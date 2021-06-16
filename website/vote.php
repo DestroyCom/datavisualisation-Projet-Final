@@ -41,22 +41,23 @@
         <div id="header">
             <?php require_once("header_vote.php");?>
         </div>
-        <p class="explic">Cliquez sur l'image pour voter votre groupe favoris ! </p>
+        <p class="explic">Cliquez sur une image pour voter votre groupe favoris ! </p>
         <div id ="veil">
+        <div class="fleche2"><a href="index.html"><img src="assets/img/fleche.png" style="width: 100px;height: 100px; position : absolute"></a></div>
             <h1><?= $groupe1["Nom_Groupe"]?> versus <?=$groupe2["Nom_Groupe"]?></h1>
             <h2>Résultats</h2>
             <div id="grid">
                 
                 <div class="container">
                     <img src="assets/img/<?=strval($id1)?>-groupe.png">
-                    <p>nb de vote<?= $vote1["versus_value_group1"];?></p>
+                    <p>nb de vote : <?= $vote1["versus_value_group1"];?></p>
                     <p><?= round($vote1["versus_value_group1"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1) ?> %</p>
                     
                 </div>
 
                 <div class="container">
                 <img src="assets/img/<?=strval($id2)?>-groupe.png">
-                    <p>nb de vote<?= $vote2["versus_value_group2"]?></p>
+                    <p>nb de vote : <?= $vote2["versus_value_group2"]?></p>
                     <p><?= round($vote2["versus_value_group2"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1)?> %</p>
 
                 </div>

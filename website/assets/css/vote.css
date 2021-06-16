@@ -7,6 +7,7 @@ body{
 }
 
 header {
+    margin-top: 30vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -73,9 +74,7 @@ h2{
 }
 
 .explic{
-    position: absolute;
-    top: 90vh;
-    left: 25vw;
+    text-align: center;
 }
 
 #veil{
@@ -132,6 +131,59 @@ body,#veil{
     border: 1px solid rgb(172, 172, 158);
 }
 
-@media only screen and (max-width: 500px){
+.fleche{
+    position: relative;
+    top: -25vh;
+}
+
+@media only screen and (max-width: 1025px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logovs{
+        width: 20vw;
+        justify-content: center;
+        margin-left: 40vw;
+        margin-bottom: 2vh;
+    }
+
+    .explic{
+        position: relative;
+        top: 10vh;
+        font-size: 25px;
+    }
+
+    #grid{
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        text-align: center;
+        margin: 2%;
+        margin-top: 5vh;
+    }
+
+    h2{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .container>img{
+        max-width: 500px;
+        border: 1px solid rgb(172, 172, 158);
+    }
+
+    .container p{
+       font-size: 25px;
+    }
+
+    .creditEtSources{
+        width: 6%;
+        left: 90vw;
+    }
 
 }
