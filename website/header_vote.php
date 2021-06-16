@@ -1,4 +1,4 @@
-<link rel="icon" type="image/png" href="assetes/img/vslogo.png"/>
+<link rel="icon" type="image/png" href="assets/img/vslogo.png"/>
 <div class="fleche"><a href="index.html"><img src="assets/img/fleche.png" style="width: 100px;height: 100px; position : absolute"></a></div>
 <?php include_once('assets/credentials-GITIGNORE/credentials.php'); ?>
 <header>

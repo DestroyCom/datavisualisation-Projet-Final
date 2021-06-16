@@ -6,7 +6,7 @@
             $group2 = $_GET['group2'];
         ?>
         <meta charset="utf-8">
-        <title>Vote</title>
+        <title>Rock Band Battle</title>
         <style type="text/css">
             body {
             height: 98vh;

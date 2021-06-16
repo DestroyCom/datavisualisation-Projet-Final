@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Vote</title>
+        <title>Rock Band Battle</title>
+        <link rel="icon" type="image/png" href="assets/img/vslogo.png"/>
         <?php include_once('assets/credentials-GITIGNORE/credentials.php');
 
 
