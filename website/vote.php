@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Rock Band Battle</title>
-        <link rel="icon" type="image/png" href="assets/img/vslogo.png"/>
-        <?php include_once('assets/credentials-GITIGNORE/credentials.php');
+
+<head>
+    <meta charset="utf-8">
+    <title>Rock Band Battle</title>
+    <link rel="icon" type="image/png" href="assets/img/vslogo.png" />
+    <?php include_once('assets/credentials-GITIGNORE/credentials.php');
 
 
             $id1 = $_GET['groupe1'];
@@ -48,35 +49,39 @@
             }
 
         ?>
-        <link href="assets/css/vote.css" rel="stylesheet">
-        <script type="text/javascript" src="assets/js/vote.js"></script>
-    </head>
+    <link href="assets/css/vote.css" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/vote.js"></script>
+</head>
 
-    <body>
-        <div id="header">
-            <?php require_once("header_vote.php");?>
-        </div>
-        <p class="explic">Cliquez sur une image pour voter votre groupe favoris ! </p>
-        <div id ="veil">
-        <div class="fleche2"><a href="index.html"><img src="assets/img/fleche.png" style="width: 100px;height: 100px; position : absolute"></a></div>
-            <h1><?= $groupe1["Nom_Groupe"]?> versus <?=$groupe2["Nom_Groupe"]?></h1>
-            <h2>Résultats</h2>
-            <div id="grid">
-                
-                <div class="container">
-                    <img src="assets/img/<?=strval($id1)?>-groupe.png">
-                    <p>nb de vote : <?= $vote1["versus_value_group1"];?></p>
-                    <p><?= round($vote1["versus_value_group1"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1) ?> %</p>
-                    
-                </div>
+<body>
+    <div id="header">
+        <?php require_once("header_vote.php");?>
+    </div>
+    <p class="explic">Cliquez sur une image pour voter votre groupe favoris ! </p>
+    <div id="veil">
+        <div class="fleche2"><a href="index.html"><img src="assets/img/fleche.png"
+                    style="width: 100px;height: 100px; position : absolute"></a></div>
+        <h1><?= $groupe1["Nom_Groupe"]?> versus <?=$groupe2["Nom_Groupe"]?></h1>
+        <h2>Résultats</h2>
+        <div id="grid">
 
-                <div class="container">
+            <div class="container">
+                <img src="assets/img/<?=strval($id1)?>-groupe.png">
+                <p>nb de vote : <?= $vote1["versus_value_group1"];?></p>
+                <p><?= round($vote1["versus_value_group1"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1) ?>
+                    %</p>
+
+            </div>
+
+            <div class="container">
                 <img src="assets/img/<?=strval($id2)?>-groupe.png">
-                    <p>nb de vote : <?= $vote2["versus_value_group2"]?></p>
-                    <p><?= round($vote2["versus_value_group2"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1)?> %</p>
+                <p>nb de vote : <?= $vote2["versus_value_group2"]?></p>
+                <p><?= round($vote2["versus_value_group2"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1)?>
+                    %</p>
 
-                </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>

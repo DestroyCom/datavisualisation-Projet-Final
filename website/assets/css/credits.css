@@ -11,33 +11,33 @@ body {
     color: white;
 }
 
-html{
+html {
     background-color: black;
     background-image: url("../img/background.svg");
 }
 
-.title{
+.title {
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
 }
 
 .container {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
-    gap: 150px 150px; 
-    grid-template-areas: 
-      ". . ."
-      ". . ."; 
-      color: white;
-      width: 100%;
-      margin-left: 50px;
-      margin-top: 30px;
-      margin-bottom: 8%;
-  }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 150px 150px;
+    grid-template-areas:
+        ". . ."
+        ". . .";
+    color: white;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 8%;
+}
 
-  .container>div>img{
+.container>div>img {
     width: 12vh;
     height: 16.5vh;
     object-fit: cover;
@@ -45,74 +45,81 @@ html{
     margin-bottom: 10px;
     border-radius: 5%;
     border: red solid 3px;
-  
+
 }
 
-.container>div>.description{
+.container>div>.description {
     margin-bottom: -30px;
 }
 
-.fleche, .fleche2{
+.fleche,
+.fleche2 {
     cursor: pointer;
     width: 55px;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.buttonMove, .buttonMove2{
+.buttonMove,
+.buttonMove2 {
     cursor: pointer;
 }
 
-#contenu2{
+#contenu2 {
     margin-right: auto;
     margin-left: auto;
 }
 
-.container2{
+.container2 {
     display: flex;
     flex-direction: column;
     text-align: center;
     line-height: 25px;
 }
 
-.container a{
+.container a {
     color: red;
     transition: opacity;
     transition-duration: 0.3s;
     transition-delay: 0.3s;
 }
-.container a:hover{
+
+.container a:hover {
     opacity: 0.5;
 }
 
-.container2 a{
+.container2 a {
     color: red;
     transition: opacity;
     transition-duration: 0.3s;
     transition-delay: 0.3s;
 }
-.container2 a:hover{
+
+.container2 a:hover {
     opacity: 0.5;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.buttonMove, .buttonMove2{
+.buttonMove,
+.buttonMove2 {
     position: absolute;
     top: 1vh;
     left: 90vw;
     color: red;
 }
-.buttonMove:hover, .buttonMove2:hover{
+
+.buttonMove:hover,
+.buttonMove2:hover {
     opacity: 0.5;
     text-decoration: underline;
 }
 
-h2{
+h2 {
     margin: 5%;
 }
 
@@ -121,54 +128,58 @@ h2{
 @media screen and (max-width: 1025px) {
 
     .container {
-        display: grid; 
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr; 
-        gap: 2px 1px; 
-        grid-template-areas: 
-          ". ."
-          ". ."
-          ". ."; 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 2px 1px;
+        grid-template-areas:
+            ". ."
+            ". ."
+            ". .";
         font-size: 10px;
         width: 90%;
         margin: 3%;
-      }
+    }
 
-    .title{
+    .title {
         font-size: 20px;
         margin-bottom: 75px;
     }
 
-    .container> div{
+    .container>div {
         margin-bottom: 33px;
     }
 
-    #p2{
+    #p2 {
         margin-top: -7px;
     }
-    .container2{
+
+    .container2 {
         margin-left: 5vw;
         width: 80vw;
     }
-    .container2 p{
-        font-size: 12px;
-    }
-    .container2 ul{
+
+    .container2 p {
         font-size: 12px;
     }
 
-    ul{
+    .container2 ul {
+        font-size: 12px;
+    }
+
+    ul {
         margin-left: -15vw;
     }
 
-    .buttonMove, .buttonMove2{
+    .buttonMove,
+    .buttonMove2 {
         position: absolute;
         top: 5vh;
         left: 59vw;
         color: red;
     }
 
-    .container>div p{
+    .container>div p {
         max-width: 100px;
     }
 

@@ -1,10 +1,10 @@
 @import url('https://fontlibrary.org/face/press-start-2p');
 
-h2{
+h2 {
     font-size: 1rem;
 }
 
-.stream{
+.stream {
     margin-top: 1vh;
     margin-bottom: 6vh;
     display: flex;
@@ -13,26 +13,26 @@ h2{
     font-family: 'Press Start 2P';
 }
 
-.group{
+.group {
     width: 80%;
     margin: 1vh;
 }
 
-.ligne{
+.ligne {
     display: flex;
     justify-content: space-between;
 }
 
-.ligne div{
+.ligne div {
     margin: 1%;
 }
 
-.ligne div>img{
+.ligne div>img {
     width: auto;
     max-height: 100px;
 }
 
-.ligne div>p{
+.ligne div>p {
     width: 200px;
     min-height: 32px;
     max-height: 50px;
@@ -42,28 +42,30 @@ h2{
 }
 
 @media only screen and (max-width: 1025px) {
-    .stream{
+    .stream {
         margin-top: 1vh;
         margin-bottom: 10vh;
     }
-    h2{
+
+    h2 {
         font-size: 30px;
     }
-    .group{
+
+    .group {
         margin: 1vh;
     }
 
-    .ligne{
+    .ligne {
         justify-content: space-around !important;
         flex-wrap: wrap;
     }
 
-    .ligne div>img{
+    .ligne div>img {
         width: auto;
         max-height: 150px;
     }
-    
-    .ligne div>p{
+
+    .ligne div>p {
         width: 300px;
         min-height: 75px;
         max-height: 100px;

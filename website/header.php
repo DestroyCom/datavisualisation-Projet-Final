@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="assets/css/navbar.css">
-<link rel="icon" type="image/png" href="assets/img/vslogo.png"/>
-<div class="fleche"><a href="index.html"><img src="assets/img/fleche.png" style="width: 50px;height: 50px; position : absolute"></a></div>
+<link rel="icon" type="image/png" href="assets/img/vslogo.png" />
+<div class="fleche"><a href="index.html"><img src="assets/img/fleche.png"
+            style="width: 50px;height: 50px; position : absolute"></a></div>
 <?php include_once('assets/credentials-GITIGNORE/credentials.php'); ?>
 <header>
     <?php

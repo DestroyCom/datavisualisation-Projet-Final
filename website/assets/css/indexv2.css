@@ -9,14 +9,15 @@ body {
   overflow-x: hidden;
 }
 
-html{
+html {
   background-color: black;
   background-image: url("../img/background.svg");
   margin: 0;
   padding: 0;
 }
+
 #groupe2 {
-  padding:0 auto;
+  padding: 0 auto;
   border: 2px solid rgb(255, 0, 0);
   width: 175px;
   height: 175px;
@@ -32,11 +33,12 @@ html{
   background: radial-gradient(#c72323, #000000);
 }
 
-.fond{
-  width:300px;
+.fond {
+  width: 300px;
 }
-.fond img{
-  margin:0 62px;
+
+.fond img {
+  margin: 0 62px;
 }
 
 .header {
@@ -104,7 +106,7 @@ button {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
   max-width: 80vw;
-  max-height: 100px;  
+  max-height: 100px;
   color: white;
   margin: auto;
   cursor: pointer;
@@ -255,7 +257,7 @@ button {
   }
 
   .tableau {
-    
+
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
 
@@ -362,29 +364,33 @@ button {
 
 @media only screen and (max-width: 500px) {
 
-  #groupe1, #groupe2{
+  #groupe1,
+  #groupe2 {
     max-width: 100px;
     max-height: 100px;
   }
-  .header{
+
+  .header {
     width: 100%;
     margin-left: -2%;
     justify-content: center;
   }
 
-  #heroleft{
+  #heroleft {
     margin-right: 10%;
   }
+
   .logovs {
     height: 80px;
     width: 80px;
     margin: -90px;
   }
 
-  .fond{
+  .fond {
     width: 100%;
   }
-  .fond img{
+
+  .fond img {
     margin-left: 96px;
   }
 
@@ -396,9 +402,9 @@ button {
   }
 
   .tableau {
-    display: grid; 
-    grid-template-columns: repeat(2,150px);
-    grid-template-rows: repeat(6,1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(6, 1fr);
     justify-content: center;
     margin-bottom: 5%;
   }

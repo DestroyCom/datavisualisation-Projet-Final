@@ -6,10 +6,12 @@
     overflow: hidden;
     font-family: 'Press Start 2P';
 }
-html{
+
+html {
     background-color: black;
     background-image: url("../img/background.svg");
-  }
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -95,7 +97,7 @@ svg {
 }
 
 .st0:hover {
-    
+
     stroke: black;
 }
 
@@ -107,7 +109,7 @@ svg {
     background-color: #353131;
 }
 
-.indicateNumber{
+.indicateNumber {
     position: absolute !important;
     top: 45vh !important;
     left: 65vw !important;
@@ -115,7 +117,7 @@ svg {
     font-size: 25px !important;
 }
 
-#legend{
+#legend {
     position: absolute;
     top: 40vh;
     left: 15vh;
@@ -125,11 +127,13 @@ svg {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
-#legend>img{
+
+#legend>img {
     grid-column: 1;
     grid-row: 1;
 }
-#legend>div{
+
+#legend>div {
     grid-column: 2;
     grid-row: 1;
     background-color: transparent;
@@ -137,10 +141,12 @@ svg {
     flex-direction: column;
     justify-content: space-between;
 }
-#legend>div>p{
+
+#legend>div>p {
     background-color: transparent;
 }
-#legendtitle>div>p{
+
+#legendtitle>div>p {
     position: absolute;
     bottom: 5vh;
     align-self: center;
@@ -150,7 +156,7 @@ svg {
     font-size: 1em;
 }
 
-.poll{
+.poll {
     position: absolute;
     top: 90vh;
     left: 80vw;
@@ -163,20 +169,23 @@ svg {
     transition-delay: 0.05s;
     cursor: pointer;
 }
-.poll:hover{
+
+.poll:hover {
     opacity: 0.5;
 }
 
 @media only screen and (max-width: 1025px) {
-    #legend{
+    #legend {
         top: 55vh;
         left: 5vh;
     }
-    #PageStream, #PageMap {
+
+    #PageStream,
+    #PageMap {
         height: 85vh;
     }
 
-    #PageStream{
+    #PageStream {
         overflow-y: scroll;
     }
 
@@ -198,23 +207,24 @@ svg {
         width: fit-content;
         background-color: #8F8F8F;
     }
+
     #PageMap>div p {
         width: 15vw;
     }
 
-    #legendtitle>div>p{
+    #legendtitle>div>p {
         margin-left: 5vh;
         margin-right: 5vh;
         font-size: 2em;
     }
 
-    .indicateNumber{
+    .indicateNumber {
         position: absolute !important;
         top: 25vh !important;
         left: 5vw !important;
     }
 
-    .poll{
+    .poll {
         top: 75vh;
         left: 75vw;
         font-size: 20px;
@@ -226,10 +236,12 @@ svg {
         top: 45vh;
         height: 275px;
     }
-    #legend>img{
+
+    #legend>img {
         height: 100%;
     }
-    #legendtitle>div>p{
+
+    #legendtitle>div>p {
         font-size: 1em;
         bottom: 3vh;
     }
