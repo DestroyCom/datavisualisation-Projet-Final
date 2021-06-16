@@ -1,4 +1,7 @@
+@import url('https://fontlibrary.org/face/press-start-2p');
+
 body{
+    font-family: 'Press Start 2P';
     background-color:#262626;
 }
 #veil{
