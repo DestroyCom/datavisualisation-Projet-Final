@@ -1,14 +1,18 @@
 @import url('https://fontlibrary.org/face/press-start-2p');
 
 body {
-  background-color: black;
+
+
   overflow: hidden;
   height: 100vh;
   width: 100%;
   font-family: 'Press Start 2P';
 }
 
-
+html{
+  background-color: black;
+  background-image: url("../img/background.svg");
+}
 #groupe2 {
   border: 2px solid rgb(255, 0, 0);
   width: 175px;
