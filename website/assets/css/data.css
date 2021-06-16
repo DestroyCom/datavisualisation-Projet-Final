@@ -139,7 +139,15 @@ svg {
 #legend>div>p{
     background-color: transparent;
 }
-
+#legendtitle>div>p{
+    position: absolute;
+    bottom: 5vh;
+    align-self: center;
+    background-color: transparent;
+    margin-left: 50vh;
+    margin-right: 25vh;
+    font-size: 1em;
+}
 
 @media only screen and (max-width: 1025px) {
     #legend{
@@ -176,9 +184,29 @@ svg {
         width: 15vw;
     }
 
+    #legendtitle>div>p{
+        margin-left: 5vh;
+        margin-right: 5vh;
+        font-size: 2em;
+    }
+
     .indicateNumber{
         position: absolute !important;
         top: 25vh !important;
         left: 5vw !important;
+    }
+}
+
+@media screen and (max-height: 1080px) {
+    #legend {
+        top: 45vh;
+        height: 275px;
+    }
+    #legend>img{
+        height: 100%;
+    }
+    #legendtitle>div>p{
+        font-size: 1em;
+        bottom: 3vh;
     }
 }

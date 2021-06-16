@@ -43,6 +43,11 @@
                     <p>0</p>
                 </div>
             </section>
+            <section id="legendtitle">
+                <div>
+                    <p id="titlemap">Nombre de concerts réalisés dans le monde par Pays<p>
+                </div>
+            </section>
         </section>
 
         <section id="PageStream" class="hidden">
