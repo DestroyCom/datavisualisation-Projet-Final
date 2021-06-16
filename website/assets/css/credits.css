@@ -23,7 +23,10 @@ body {
       ". . ."
       ". . ."; 
       color: white;
-      margin-left: 100px;
+      width: 100%;
+      margin-left: 50px;
+      margin-top: 30px;
+      
   }
 
   .container>div>img{
@@ -35,6 +38,15 @@ body {
     border-radius: 5%;
     border: red solid 3px;
   
+}
+
+.container>div>.description{
+    margin-bottom: -30px;
+}
+
+.fleche{
+    margin-top: -100px;
+    
 }
 
 
