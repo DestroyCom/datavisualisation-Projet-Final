@@ -1,0 +1,50 @@
+body{
+    background-color:#262626;
+}
+#veil{
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 6001;
+    height:100vh;
+    width:100vw;
+    background-color:#282828;
+    overflow:hidden;
+}
+ h1{
+    display:flex;
+    justify-content:center;
+    color:white;
+    z-index: 6003;
+
+}
+
+body,#veil{
+    background-image:url(img/background.svg);
+    background-repeat:repeat;
+    left:0px;
+    z-index: 6002;
+}
+
+.maxbar{
+    height:20px ;
+    background: #404040;
+    z-index: 6899;
+}
+
+
+
+#grid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+}
+
+.container:first-child{
+    margin: auto;
+    grid-column: 1/1;
+}
+.container:last-child{
+    margin: auto;
+    grid-column: 2/2;
+}
