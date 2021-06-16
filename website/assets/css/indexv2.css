@@ -43,16 +43,16 @@ body {
 #name1,
 #name2 {
     color: white;
-    font-family: 'CatV6x129Normal';
+    font-family: 'Press Start 2P';
 }
 
 #name1 {
-    margin-left: 85px;
+    text-align: center;
     color: red;
 }
 
 #name2 {
-    margin-left: 160px;
+    text-align: center;
     color: red;
 }
 
@@ -66,11 +66,7 @@ button{
     background-color: rgb(150, 32, 32);
     opacity: 50%;
     color: white;
-<<<<<<< HEAD
     font-family: 'Press Start 2P';
-=======
-    cursor: pointer;
->>>>>>> 4360c2a16747e3d77a17e1f6ca9e3d0eb89d0f74
 }
 
 
@@ -185,12 +181,12 @@ button{
     }
     
     #name1 {
-        margin-left: 295px;
+        
         font-size: 5px;
     }
     
     #name2 {
-        margin-left: 135px;
+        
         font-size: 5px;
     }
     .tableau {
