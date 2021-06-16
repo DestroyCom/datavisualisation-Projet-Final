@@ -118,6 +118,7 @@ svg {
     position: absolute;
     top: 44vh;
     left: 15vh;
+    bottom: 44vh;
     background-color: transparent;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -138,8 +139,6 @@ svg {
 #legend>div>p{
     background-color: transparent;
 }
-
-.fleche{}
 
 @media only screen and (max-width: 1025px) {
     #legend{
