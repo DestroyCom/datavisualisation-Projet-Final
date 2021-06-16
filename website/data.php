@@ -8,7 +8,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Data</title>
+    <title>Rock Band Battle</title>
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" href="assets/css/data.css">
     <link rel="stylesheet" href="assets/css/stream.css">
