@@ -225,3 +225,7 @@ function Vote(grpValue) {
     .then(document.getElementById("veil").style.display = "block");
     
 }
+
+document.querySelector('.creditEtSources').addEventListener('click', function(e){
+     window.location = 'credits.html';
+ })

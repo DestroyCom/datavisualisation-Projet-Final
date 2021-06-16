@@ -3,7 +3,81 @@
 body{
     font-family: 'Press Start 2P';
     background-color:#262626;
+    color: white;
 }
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 5000000000000;
+    height: 30vh;
+    padding-top: 2%;
+    font-family: 'Press Start 2P';
+}
+
+header>div:first-child>img {
+    height: 80%;
+    width: 300px;
+    border: 1px solid rgb(172, 172, 158);
+    object-fit: cover;
+    cursor: pointer;
+}
+
+header>div:last-child>img {
+    height: 80%;
+    width: 300px;
+    border: 1px solid rgb(172, 172, 158);
+    object-fit: cover;
+    cursor: pointer;
+}
+
+header>div>div {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+
+#logovs {
+    height: 70%;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+.creditEtSources{
+    position: absolute;
+    top: 5vh;
+    left: 95vw;
+    color: white;
+    width: 2%;
+    filter: invert();
+    background-color: transparent;
+    cursor: pointer;
+    transition: opacity;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.05s;
+}
+.creditEtSources:hover{
+    opacity: 0.3;
+}
+
+header>div{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.explic{
+    position: absolute;
+    top: 90vh;
+    left: 25vw;
+}
+
 #veil{
     display:none;
     position: absolute;
@@ -24,7 +98,7 @@ body{
 }
 
 body,#veil{
-    background-image:url(img/background.svg);
+    background-image:url(../img/background.svg);
     background-repeat:repeat;
     left:0px;
     z-index: 6002;
@@ -52,6 +126,12 @@ body,#veil{
     grid-column: 2/2;
 }
 
+#logors, #logobeatles{
+    max-width: 300px;
+    max-height: 200px;
+    border: 1px solid rgb(172, 172, 158);
+}
+
 @media only screen and (max-width: 500px){
-    
+
 }

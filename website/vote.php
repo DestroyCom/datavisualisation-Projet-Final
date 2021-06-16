@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Vote</title>
-        
-        <?php include_once('credentials.php');
+        <?php include_once('assets/credentials-GITIGNORE/credentials.php');
 
 
             $id1 = $_GET['groupe1'];
@@ -34,30 +33,31 @@
             $vote2 = $stmt -> fetch(PDO::FETCH_ASSOC);
 
         ?>
-        <link href="vote.css" rel="stylesheet">
-        <script type="text/javascript" src="vote.js"></script>
+        <link href="assets/css/vote.css" rel="stylesheet">
+        <script type="text/javascript" src="assets/js/vote.js"></script>
     </head>
 
     <body>
         <div id="header">
             <?php require_once("header_vote.php");?>
-            <p>Cliquez sur l'image pour voter votre groupe favoris ! </p>
         </div>
+        <p class="explic">Cliquez sur l'image pour voter votre groupe favoris ! </p>
         <div id ="veil">
             <h1><?= $groupe1["Nom_Groupe"]?> versus <?=$groupe2["Nom_Groupe"]?></h1>
-
+            <h2>Résultats</h2>
             <div id="grid">
+                
                 <div class="container">
-                    <img src="assets/img/.<?=strval($id1)?>.-groupe.png">
-                    <p>nb de vote<?= $vote1["versus_value_group1"]?></p>
-                    <p><?= round($vote1["versus_value_group1"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1) ?></p>
+                    <img src="assets/img/<?=strval($id1)?>-groupe.png">
+                    <p>nb de vote<?= $vote1["versus_value_group1"];?></p>
+                    <p><?= round($vote1["versus_value_group1"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1) ?> %</p>
                     
                 </div>
 
                 <div class="container">
-                <img src="assets/img/.<?=strval($id2)?>.-groupe.png">
+                <img src="assets/img/<?=strval($id2)?>-groupe.png">
                     <p>nb de vote<?= $vote2["versus_value_group2"]?></p>
-                    <p><?= round($vote2["versus_value_group2"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1)?></p>
+                    <p><?= round($vote2["versus_value_group2"] / ($vote1["versus_value_group1"] + $vote2["versus_value_group2"])*100,1)?> %</p>
 
                 </div>
             </div>
