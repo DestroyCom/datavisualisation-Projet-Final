@@ -116,9 +116,9 @@ svg {
 
 #legend{
     position: absolute;
-    top: 44vh;
+    top: 40vh;
     left: 15vh;
-    bottom: 44vh;
+
     background-color: transparent;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -140,11 +140,7 @@ svg {
     background-color: transparent;
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 1c2ababea7578b701c7a4c0984df30e772acd85b
 @media only screen and (max-width: 1025px) {
     #legend{
         top: 55vh;

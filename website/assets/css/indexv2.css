@@ -2,11 +2,12 @@
 
 body {
     background-color: black;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 100vh;
     width: 100%;
     font-family: 'Press Start 2P';
 }
+
 
 #groupe2 {
   border: 2px solid rgb(255, 0, 0);
@@ -35,6 +36,7 @@ body {
 
 .header>.logovs {
   width: 150px;
+  
 }
 
 #name1,
@@ -54,16 +56,20 @@ body {
 }
 
 .button{
-    display: flex;
-    justify-content: center;
+  text-align: center;
+  cursor: pointer;
 }
+
 button{
-    font-size: 15px;
+    font-size: 45px;
     border-radius: 5%;
     background-color: rgb(150, 32, 32);
+    background-image: url("../img/fire.gif");
     opacity: 50%;
     color: white;
     font-family: 'Press Start 2P';
+    cursor: pointer;
+    
 }
 
 .title{
@@ -256,4 +262,69 @@ button{
         margin-top: 0px;
         font-size: 7px;
     }
+}
+
+@media only screen and (max-width: 500px){
+  .tableau {
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+  }
+  #g1{
+    grid-column: 1; grid-row: 1;
+    border: solid 1px white;
+    
+  }
+  #g2{
+    grid-column: 2; grid-row: 1;
+    border: solid 1px white;
+  }
+  #g3{
+    grid-column: 3; grid-row: 1;
+    border: solid 1px white;
+  }
+  #g4{
+    grid-column: 1; grid-row: 2;
+    border: solid 1px white;
+  }
+  #g5{
+    grid-column: 2; grid-row: 2;
+    border: solid 1px white;
+  }
+  #g6{
+    grid-column: 3; grid-row: 2;
+    border: solid 1px white;
+  }
+
+  #g7{
+    grid-column: 1; grid-row:3 ;
+    border: solid 1px white;
+  }
+  #g8{
+    grid-column: 2; grid-row: 3;
+    border: solid 1px white;
+  }
+  #g9{
+    grid-column: 3; grid-row: 3;
+    border: solid 1px white;
+  }
+  #g10{
+    grid-column: 1; grid-row: 4;
+    border: solid 1px white;
+  }
+  #g11{
+    grid-column: 2; grid-row: 4;
+    border: solid 1px white;
+  }
+  #g12{
+    grid-column: 3; grid-row: 4;
+    border: solid 1px white;
+  }
+
+    
+}
+
+
+.hidden{
+  display: none;
 }

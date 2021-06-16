@@ -44,6 +44,8 @@ function ImageVsVerification(Unitem,Untableau){
         document.getElementById("groupe2").setAttribute("src","assets/img/"+Unitem.id.replace("g","")+"-groupe.png");
         SetGroupeName(Unitem.id.replace("g",""),"name2");
         document.getElementById("go").style.opacity="1";
+        document.getElementById("button").classList.remove("hidden");
+        document.getElementById("vs").style.backgroundImage=' url("assets/img/fire.gif")';
     }
     else if(Untableau.length==2){
         document.getElementById("groupe1").setAttribute("src","assets/img/"+Untableau[0].id.replace("g","")+"-groupe.png");
