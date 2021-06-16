@@ -19,8 +19,6 @@ main>section:first-child {
     display: flex;
     flex-direction: row;
     max-height: 7vh;
-    /* position: relative;
-    left: 25%; */
     align-self: center;
 }
 
@@ -142,24 +140,15 @@ svg {
 #legend>div>p{
     background-color: transparent;
 }
-
-.poll{
+#legendtitle>div>p{
     position: absolute;
-    top: 90vh;
-    left: 85vw;
-    background-color: grey;
-    padding: 10px;
-    border-radius: 25px;
-    transition: opacity;
-    opacity: 1;
-    transition-duration: 0.5s;
-    transition-delay: 0.05s;
-    cursor: pointer;
+    bottom: 5vh;
+    align-self: center;
+    background-color: transparent;
+    margin-left: 50vh;
+    margin-right: 25vh;
+    font-size: 1em;
 }
-.poll:hover{
-    opacity: 0.5;
-}
-
 
 @media only screen and (max-width: 1025px) {
     #legend{
@@ -196,6 +185,12 @@ svg {
         width: 15vw;
     }
 
+    #legendtitle>div>p{
+        margin-left: 5vh;
+        margin-right: 5vh;
+        font-size: 2em;
+    }
+
     .indicateNumber{
         position: absolute !important;
         top: 25vh !important;
@@ -206,5 +201,19 @@ svg {
         top: 90vh;
         left: 40vw;
         font-size: 20px;
+    }
+}
+
+@media screen and (max-height: 1080px) {
+    #legend {
+        top: 45vh;
+        height: 275px;
+    }
+    #legend>img{
+        height: 100%;
+    }
+    #legendtitle>div>p{
+        font-size: 1em;
+        bottom: 3vh;
     }
 }
