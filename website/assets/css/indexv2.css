@@ -349,6 +349,9 @@ button{
 }
 
 @media only screen and (max-width: 500px){
+  *{
+    overflow: visible;
+  }
   .tableau {
     display: grid; 
     grid-template-columns: repeat(2,1fr);
