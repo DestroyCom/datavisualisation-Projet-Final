@@ -15,7 +15,7 @@
         $nomGroupe1 = $stmt1 -> fetch(PDO::FETCH_ASSOC);
         $nomGroupe2 = $stmt2 -> fetch(PDO::FETCH_ASSOC);
     ?>
-    <div>
+    <div id="titres">
         <img id="logobeatles" src=<?php if($idGroupe1 < 13){
             echo "assets/img/" . strval($idGroupe1). "-groupe.png";
             }
@@ -27,7 +27,7 @@
 
     <img id="logovs" src="assets/img/vslogo.png" alt="logovs">
     <img src="assets/img/question-circle-solid.svg" class="creditEtSources">
-    <div>
+    <div id="titres">
         <img id="logors" src=<?php 
         if($idGroupe2 < 13){
             echo "assets/img/" . strval($idGroupe2). "-groupe.png";
