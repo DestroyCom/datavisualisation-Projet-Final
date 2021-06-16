@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/data.css">
     <link rel="stylesheet" href="assets/css/stream.css">
     <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="icon" type="image/png" href="assets/img/vslogo.png"/>
    
 </head>
 

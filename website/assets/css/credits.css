@@ -3,13 +3,17 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
     overflow-y: auto;
     overflow-x: hidden;
     height: 100vh;
     width: 100%;
     font-family: 'Press Start 2P';
     color: white;
+}
+
+html{
+    background-color: black;
+    background-image: url("../img/background.svg");
 }
 
 .title{

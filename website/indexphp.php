@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/index.css">
     <?php include_once('assets/credentials-GITIGNORE/credentials.php'); ?>
+    <link rel="icon" type="image/png" href="assets/img/vslogo.png"/>
 </head>
 
 <body>
