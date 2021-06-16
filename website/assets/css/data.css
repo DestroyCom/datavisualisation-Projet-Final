@@ -139,6 +139,8 @@ svg {
     background-color: #353131;
 }
 
+.fleche{}
+
 @media only screen and (max-width: 1025px) {
     #PageStream, #PageMap {
         height: 85vh;
